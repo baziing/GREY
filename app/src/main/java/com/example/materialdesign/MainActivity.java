@@ -73,6 +73,23 @@ public class MainActivity extends AppCompatActivity {
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem menuItem) {
+                switch(menuItem.getItemId()){
+                    case R.id.nav_information:
+                        Toast.makeText(MainActivity.this,"information",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.nav_follower:
+                        Toast.makeText(MainActivity.this,"follower",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.nav_fans:
+                        Toast.makeText(MainActivity.this,"fans",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.nav_remind:
+                        Toast.makeText(MainActivity.this,"remind",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.nav_setting:
+                        Toast.makeText(MainActivity.this,"setting",Toast.LENGTH_SHORT).show();
+                        break;
+                }
                 mDrawerLayout.closeDrawers();
                 return true;
             }
