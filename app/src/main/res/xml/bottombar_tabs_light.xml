@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_light_1"
+        icon="@mipmap/ic_radar_white_24dp"
+        title="Square" />
+    <tab
+        id="@+id/tab_light_3"
+        icon="@mipmap/ic_magnify_white_24dp"
+        title="null" />
+    <tab
+        id="@+id/tab_light_2"
+        icon="@mipmap/ic_home_white_24dp"
+        title="Home" />
+</tabs>
