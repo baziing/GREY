@@ -29,9 +29,16 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.grey.DataSheet.Person;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.bmob.v3.Bmob;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.SaveListener;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -71,6 +78,8 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email_register);
         populateAutoComplete();
 
+//        Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
+
         mPasswordView = (EditText) findViewById(R.id.password_register);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -96,6 +105,7 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
 
         mLoginFormView = findViewById(R.id.register_form);
         mProgressView = findViewById(R.id.register_progress);
+
     }
 
     private void populateAutoComplete() {
@@ -191,6 +201,22 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
+
+            Person p2 = new Person();
+            p2.setName(email);
+            p2.setAddress(password);
+            p2.save(new SaveListener<String>() {
+                @Override
+                public void done(String objectId,BmobException e) {
+                    Toast toast;
+                    if(e==null){
+                        Toast.makeText(RegisterActivity.this,"添加数据成功，返回objectId为："+objectId,Toast.LENGTH_SHORT).show();
+                    }else{
+                        Toast.makeText(RegisterActivity.this,"创建数据失败：" + e.getMessage(),Toast.LENGTH_LONG).show();
+                    }
+                }
+            });
+
         }
     }
 

@@ -34,6 +34,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.Bmob;
+import android.app.Activity;
+
 import static android.Manifest.permission.READ_CONTACTS;
 
 /**
@@ -68,6 +71,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //bomb初始化
+        Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
