@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.accountList;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.grey.R;
 import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
 
 import java.util.List;

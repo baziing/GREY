@@ -1,10 +1,7 @@
-package com.example.grey;
+package com.example.grey.home;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +10,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.grey.R;
+import com.example.grey.personalHomepage.ScrollingActivity;
+import com.example.grey.accountList.FanActivity;
+import com.example.grey.accountList.FollowerActivity;
+import com.example.grey.edit.EditActivity;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

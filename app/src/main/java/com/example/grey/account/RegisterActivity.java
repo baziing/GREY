@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.account;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,12 +31,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.grey.DataSheet.Person;
+import com.example.grey.account.Person;
+import com.example.grey.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.Bmob;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
 
@@ -202,10 +202,10 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
 
-            Person p2 = new Person();
-            p2.setName(email);
-            p2.setAddress(password);
-            p2.save(new SaveListener<String>() {
+            Person person = new Person();
+            person.setName(email);
+            person.setAddress(password);
+            person.save(new SaveListener<String>() {
                 @Override
                 public void done(String objectId,BmobException e) {
                     Toast toast;

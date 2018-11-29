@@ -1,7 +1,9 @@
-package com.example.grey;
+package com.example.grey.personalHomepage;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.grey.R;
 
 import scut.carson_ho.searchview.ICallBack;
 import scut.carson_ho.searchview.SearchView;
@@ -17,10 +19,10 @@ public class MySearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_search);
 
-        // 3. 绑定组件
+        // 绑定组件
         searchView = (SearchView) findViewById(R.id.search_view);
 
-        // 4. 设置点击键盘上的搜索按键后的操作（通过回调接口）
+        // 设置点击键盘上的搜索按键后的操作（通过回调接口）
         // 参数 = 搜索框输入的内容
         searchView.setOnClickSearch(new ICallBack() {
             @Override
@@ -29,7 +31,7 @@ public class MySearchActivity extends AppCompatActivity {
             }
         });
 
-        // 5. 设置点击返回按键后的操作（通过回调接口）
+        // 设置点击返回按键后的操作（通过回调接口）
         searchView.setOnClickBack(new bCallBack() {
             @Override
             public void BackAciton() {

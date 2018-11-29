@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.account;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,7 +35,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.v3.Bmob;
-import android.app.Activity;
+
+import com.example.grey.home.DrawerActivity;
+import com.example.grey.R;
 
 import static android.Manifest.permission.READ_CONTACTS;
 

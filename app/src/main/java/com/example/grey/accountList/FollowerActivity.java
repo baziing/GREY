@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.accountList;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.app.Activity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ListView;
+
+import com.example.grey.home.DrawerActivity;
+import com.example.grey.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,9 +43,7 @@ public class FollowerActivity extends Activity {
         setListeners();// 设置监听
     }
 
-    /**
-     * 设置监听
-     */
+
     private void setListeners() {
         if (adapter != null){
             // 注册监听器,回调用来刷新数据显示
@@ -56,27 +57,21 @@ public class FollowerActivity extends Activity {
         }
     }
 
-    /**
-     * 创建adapter并且listview设置adapter
-     */
+
     private void setAdapter() {
         adapter = new SideSlipFollowerAdapter(this, list);
         lsv_side_slip_delete.setAdapter(adapter);
 
     }
 
-    /**
-     * 模拟初始化数据
-     */
+
     private void setData() {
         for (int i = 0;i < 16;i++){
             list.add("侧滑删除" + (i + 1));
         }
     }
 
-    /**
-     * 控件初始化
-     */
+
     private void setViews() {
         lsv_side_slip_delete = findViewById(R.id.lsv_side_slip_delete);
     }
