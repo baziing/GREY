@@ -3,4 +3,4 @@
 # 安卓系统
 要求在Android 6.0以上
 # 第三方SDK
-UMSSDK 1.2.0
+

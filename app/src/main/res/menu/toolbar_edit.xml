@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/trush"
+        android:icon="@mipmap/ic_trash_can_white_24dp"
+        android:title="trush"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/gps"
+        android:icon="@mipmap/ic_map_marker_radius_white_24dp"
+        android:title="gps"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/sendup"
+        android:icon="@mipmap/ic_telegram_white_24dp"
+        android:title="sendup"
+        app:showAsAction="ifRoom"/>
+
+</menu>

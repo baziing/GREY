@@ -33,7 +33,12 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MySearchActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".FollowerActivity" />
+        <activity android:name=".FanActivity"></activity>
     </application>
 
 </manifest>
