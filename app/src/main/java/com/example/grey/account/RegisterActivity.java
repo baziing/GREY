@@ -37,8 +37,11 @@ import com.example.grey.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.CountListener;
 import cn.bmob.v3.listener.SaveListener;
+import cn.bmob.v3.BmobUser;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -67,6 +70,8 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
     // UI references.
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
+    private EditText mPasswordView_confirm;
+    private EditText mUserNameView;
     private View mProgressView;
     private View mLoginFormView;
 
@@ -92,14 +97,17 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             }
         });
 
+        mPasswordView_confirm=(EditText)findViewById(R.id.password_confirm);
+        mUserNameView=(EditText)findViewById(R.id.username);
+
         Button mEmailSignInButton = (Button) findViewById(R.id.email_register_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 attemptLogin();
-                Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
-                startActivity(intent);
-                RegisterActivity.this.finish();
+//                Intent intent=new Intent(RegisterActivity.this,LoginActivity.class);
+//                startActivity(intent);
+//                RegisterActivity.this.finish();
             }
         });
 
@@ -169,6 +177,8 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
         // Store values at the time of the login attempt.
         String email = mEmailView.getText().toString();
         String password = mPasswordView.getText().toString();
+        String password_confirm=mPasswordView_confirm.getText().toString();
+        String username=mUserNameView.getText().toString();
 
         boolean cancel = false;
         View focusView = null;
@@ -191,6 +201,13 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             cancel = true;
         }
 
+        if (!(password_confirm.equals(password))){
+            mPasswordView_confirm.setError(getString(R.string.error_invaild_password_confirm));
+            focusView=mPasswordView_confirm;
+            cancel=true;
+        }
+
+
         if (cancel) {
             // There was an error; don't attempt login and focus the first
             // form field with an error.
@@ -202,23 +219,26 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
 
-            Person person = new Person();
-            person.setName(email);
-            person.setAddress(password);
-            person.save(new SaveListener<String>() {
+            //注册用户，上传到云端
+            User user=new User();
+            user.setUsername(email);
+            user.setPassword(password);
+            user.setEmail(email);
+            user.setName(username);
+            user.signUp(new SaveListener<User>() {
                 @Override
-                public void done(String objectId,BmobException e) {
-                    Toast toast;
+                public void done(User user, BmobException e) {
                     if(e==null){
-                        Toast.makeText(RegisterActivity.this,"添加数据成功，返回objectId为："+objectId,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
                     }else{
-                        Toast.makeText(RegisterActivity.this,"创建数据失败：" + e.getMessage(),Toast.LENGTH_LONG).show();
+                        Toast.makeText(RegisterActivity.this,"创建用户失败：" + e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
                 }
             });
 
         }
     }
+
 
     private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic

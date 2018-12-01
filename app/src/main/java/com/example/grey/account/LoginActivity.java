@@ -35,6 +35,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.v3.Bmob;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.LogInListener;
+import cn.bmob.v3.listener.SaveListener;
 
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.R;
@@ -96,9 +100,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View view) {
                 attemptLogin();
-                Intent intent=new Intent(LoginActivity.this,DrawerActivity.class);
-                startActivity(intent);
-                LoginActivity.this.finish();
             }
         });
 
@@ -109,7 +110,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 Toast.makeText(LoginActivity.this,"go to register",Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(LoginActivity.this,RegisterActivity.class);
                 startActivity(intent);
-                LoginActivity.this.finish();
+//                LoginActivity.this.finish();
             }
         });
 
@@ -210,6 +211,28 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
+
+//            BmobUser userlogin=new BmobUser();
+//            userlogin.setUsername("11111@qq.com");
+//            userlogin.setEmail(email);
+//            userlogin.setPassword(password);
+            BmobUser.loginByAccount(email,password,new LogInListener<User>() {
+                @Override
+                public void done(User user, BmobException e) {
+                    if(user!=null){
+                        Toast.makeText(LoginActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(LoginActivity.this,DrawerActivity.class);
+                        startActivity(intent);
+                        LoginActivity.this.finish();
+                    }else {
+                        Toast.makeText(LoginActivity.this,"登录失败"+e,Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(LoginActivity.this,LoginActivity.class);
+                        startActivity(intent);
+                        LoginActivity.this.finish();
+                    }
+                }
+            });
+
         }
     }
 
