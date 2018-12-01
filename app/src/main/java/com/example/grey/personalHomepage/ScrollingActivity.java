@@ -13,6 +13,8 @@ import com.example.grey.R;
 import com.example.grey.edit.EditActivity;
 import com.example.grey.home.DrawerActivity;
 
+import cn.bmob.v3.BmobUser;
+
 public class ScrollingActivity extends AppCompatActivity {
 
     @Override
@@ -30,6 +32,19 @@ public class ScrollingActivity extends AppCompatActivity {
                 ScrollingActivity.this.finish();
             }
         });
+
+
+        //个人主页显示用户名
+        BmobUser bmobUser = BmobUser.getCurrentUser();
+        if(bmobUser != null){
+            // 允许用户使用应用
+            Toast.makeText(ScrollingActivity.this,bmobUser.getUsername()+"个人界面",Toast.LENGTH_SHORT).show();
+            getSupportActionBar().setTitle(bmobUser.getUsername());
+        }else{
+            //缓存用户对象为空时， 可打开用户注册界面…
+            Toast.makeText(ScrollingActivity.this,"无用户消息",Toast.LENGTH_SHORT).show();
+        }
+
     }
 
     @Override

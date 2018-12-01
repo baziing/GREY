@@ -221,10 +221,9 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
 
             //注册用户，上传到云端
             User user=new User();
-            user.setUsername(email);
+            user.setUsername(username);
             user.setPassword(password);
             user.setEmail(email);
-            user.setName(username);
             user.signUp(new SaveListener<User>() {
                 @Override
                 public void done(User user, BmobException e) {

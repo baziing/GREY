@@ -6,7 +6,6 @@ import cn.bmob.v3.BmobUser;
 //用户信息
 public class User extends BmobUser{
 ////    用户名
-    private String name;
 ////    密码
 //    private String password;
 ////    手机号码是否可以使用
@@ -26,9 +25,6 @@ public class User extends BmobUser{
 //        this.password = password;
 //    }
 //
-    public void setName(String username) {
-        this.name = username;
-    }
 //
 //    public void setMobilePhoneNumber(String mobilePhoneNumber) {
 //        this.mobilePhoneNumber = mobilePhoneNumber;
@@ -54,9 +50,9 @@ public class User extends BmobUser{
 //        return password;
 //    }
 //
-    public String getName() {
-        return name;
-    }
+//    public String getName() {
+//        return name;
+//    }
 //
 //    public Boolean getEmailVerified() {
 //        return emailVerified;
