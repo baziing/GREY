@@ -54,7 +54,8 @@
         <activity android:name=".home.NavHeaderActivity" />
         <activity
             android:name=".account.ResetActivity"
-            android:label="@string/title_activity_reset"></activity>
+            android:label="@string/title_activity_reset" />
+        <activity android:name=".setting.SettingActivity"></activity>
     </application>
 
 </manifest>

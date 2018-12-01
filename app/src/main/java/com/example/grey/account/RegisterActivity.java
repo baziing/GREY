@@ -3,7 +3,6 @@ package com.example.grey.account;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -19,6 +18,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.View;
@@ -31,17 +31,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.grey.account.Person;
 import com.example.grey.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.CountListener;
 import cn.bmob.v3.listener.SaveListener;
-import cn.bmob.v3.BmobUser;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -99,6 +95,17 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
 
         mPasswordView_confirm=(EditText)findViewById(R.id.password_confirm);
         mUserNameView=(EditText)findViewById(R.id.username);
+
+        //初始化toolbar
+        Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setNavigationIcon(R.mipmap.ic_keyboard_backspace_white_24dp);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                RegisterActivity.this.finish();
+            }
+        });
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_register_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {

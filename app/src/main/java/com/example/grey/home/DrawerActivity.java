@@ -21,6 +21,7 @@ import com.example.grey.personalHomepage.ScrollingActivity;
 import com.example.grey.accountList.FanActivity;
 import com.example.grey.accountList.FollowerActivity;
 import com.example.grey.edit.EditActivity;
+import com.example.grey.setting.SettingActivity;
 
 import cn.bmob.v3.BmobUser;
 
@@ -104,7 +105,9 @@ public class DrawerActivity extends AppCompatActivity
             startActivity(intent);
             DrawerActivity.this.finish();
         } else if (id == R.id.nav_settings) {
-
+            Intent intent=new Intent(DrawerActivity.this,SettingActivity.class);
+            startActivity(intent);
+            DrawerActivity.this.finish();
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
