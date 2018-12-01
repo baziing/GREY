@@ -3,7 +3,6 @@ package com.example.grey.account;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -31,24 +30,22 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.grey.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
 import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
-import cn.bmob.v3.listener.LogInListener;
-import cn.bmob.v3.listener.SaveListener;
-
-import com.example.grey.home.DrawerActivity;
-import com.example.grey.R;
+import cn.bmob.v3.listener.UpdateListener;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+public class ResetActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -62,65 +59,25 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello", "bar@example.com:world"
     };
-    /**
-     * Keep track of the login task to ensure we can cancel it if requested.
-     */
-    private UserLoginTask mAuthTask = null;
 
     // UI references.
     private AutoCompleteTextView mEmailView;
-    private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        //bomb初始化
-        Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
+        setContentView(R.layout.activity_reset);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
-
-        mPasswordView = (EditText) findViewById(R.id.password);
-        mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView textView, int id, KeyEvent keyEvent) {
-                if (id == EditorInfo.IME_ACTION_DONE || id == EditorInfo.IME_NULL) {
-                    attemptLogin();
-                    return true;
-                }
-                return false;
-            }
-        });
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 attemptLogin();
-            }
-        });
-
-        Button mEmailRegisterButton=(Button)findViewById(R.id.go_to_register);
-        mEmailRegisterButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(LoginActivity.this,"go to register",Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(LoginActivity.this,RegisterActivity.class);
-                startActivity(intent);
-//                LoginActivity.this.finish();
-            }
-        });
-
-        Button mPasswordResetButton=(Button)findViewById(R.id.go_to_reset);
-        mPasswordResetButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(LoginActivity.this,"go to reset",Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(LoginActivity.this,ResetActivity.class);
-                startActivity(intent);
             }
         });
 
@@ -178,38 +135,26 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
-        if (mAuthTask != null) {
-            return;
-        }
 
         // Reset errors.
         mEmailView.setError(null);
-        mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        String email = mEmailView.getText().toString();
-        String password = mPasswordView.getText().toString();
+        final String email = mEmailView.getText().toString();
 
         boolean cancel = false;
         View focusView = null;
 
-        // Check for a valid password, if the user entered one.
-        if (!TextUtils.isEmpty(password) && !isPasswordValid(password)) {
-            mPasswordView.setError(getString(R.string.error_invalid_password));
-            focusView = mPasswordView;
+        // Check for a valid email address.
+        if (TextUtils.isEmpty(email)) {
+            mEmailView.setError(getString(R.string.error_field_required));
+            focusView = mEmailView;
+            cancel = true;
+        } else if (!isEmailValid(email)) {
+            mEmailView.setError(getString(R.string.error_invalid_email));
+            focusView = mEmailView;
             cancel = true;
         }
-
-        // Check for a valid email address.
-//        if (TextUtils.isEmpty(email)) {
-//            mEmailView.setError(getString(R.string.error_field_required));
-//            focusView = mEmailView;
-//            cancel = true;
-//        } else if (!isEmailValid(email)) {
-//            mEmailView.setError(getString(R.string.error_invalid_email));
-//            focusView = mEmailView;
-//            cancel = true;
-//        }
 
         if (cancel) {
             // There was an error; don't attempt login and focus the first
@@ -219,41 +164,46 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
 
-//            BmobUser userlogin=new BmobUser();
-//            userlogin.setUsername("11111@qq.com");
-//            userlogin.setEmail(email);
-//            userlogin.setPassword(password);
-            BmobUser.loginByAccount(email,password,new LogInListener<User>() {
+//            Bmob.User.requestPasswordReset("test@126.com", {
+//                    success: function() {
+//                // Password reset request was sent successfully
+//            },
+//            error: function(error) {
+//                // Show the error message somewhere
+//                alert("Error: " + error.code + " " + error.message);
+//            }
+//});
+//            inal String email = "xxx@163.com";
+//            BmobUser.resetPasswordByEmail(email, new UpdateListener() {
+//
+//                @Override
+//                public void done(BmobException e) {
+//                    if(e==null){
+//                        toast("重置密码请求成功，请到" + email + "邮箱进行密码重置操作");
+//                    }else{
+//                        toast("失败:" + e.getMessage());
+//                    }
+//                }
+//            });
+
+            BmobUser.resetPasswordByEmail(email, new UpdateListener() {
                 @Override
-                public void done(User user, BmobException e) {
-                    if(user!=null){
-                        Toast.makeText(LoginActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(LoginActivity.this,DrawerActivity.class);
-                        startActivity(intent);
-                        LoginActivity.this.finish();
-                    }else {
-                        Toast.makeText(LoginActivity.this,"登录失败"+e,Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(LoginActivity.this,LoginActivity.class);
-                        startActivity(intent);
-                        LoginActivity.this.finish();
+                public void done(BmobException e) {
+                    if(e==null){
+                        Toast.makeText(ResetActivity.this,"重置密码请求成功，请到" + email + "邮箱进行密码重置操作",Toast.LENGTH_SHORT).show();
+                        ResetActivity.this.finish();
+                    }else{
+                        Toast.makeText(ResetActivity.this,"失败:" + e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
                 }
             });
-
         }
     }
 
-//    private boolean isEmailValid(String email) {
-//        //TODO: Replace this with your own logic
-//        return email.contains("@");
-//    }
-
-    private boolean isPasswordValid(String password) {
+    private boolean isEmailValid(String email) {
         //TODO: Replace this with your own logic
-        return password.length() > 4;
+        return email.contains("@");
     }
 
     /**
@@ -329,7 +279,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
         //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<>(LoginActivity.this,
+                new ArrayAdapter<>(ResetActivity.this,
                         android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
 
         mEmailView.setAdapter(adapter);
@@ -345,62 +295,4 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         int ADDRESS = 0;
         int IS_PRIMARY = 1;
     }
-
-    /**
-     * Represents an asynchronous login/registration task used to authenticate
-     * the user.
-     */
-    public class UserLoginTask extends AsyncTask<Void, Void, Boolean> {
-
-        private final String mEmail;
-        private final String mPassword;
-
-        UserLoginTask(String email, String password) {
-            mEmail = email;
-            mPassword = password;
-        }
-
-        @Override
-        protected Boolean doInBackground(Void... params) {
-            // TODO: attempt authentication against a network service.
-
-            try {
-                // Simulate network access.
-                Thread.sleep(2000);
-            } catch (InterruptedException e) {
-                return false;
-            }
-
-            for (String credential : DUMMY_CREDENTIALS) {
-                String[] pieces = credential.split(":");
-                if (pieces[0].equals(mEmail)) {
-                    // Account exists, return true if the password matches.
-                    return pieces[1].equals(mPassword);
-                }
-            }
-
-            // TODO: register the new account here.
-            return true;
-        }
-
-        @Override
-        protected void onPostExecute(final Boolean success) {
-            mAuthTask = null;
-            showProgress(false);
-
-            if (success) {
-                finish();
-            } else {
-                mPasswordView.setError(getString(R.string.error_incorrect_password));
-                mPasswordView.requestFocus();
-            }
-        }
-
-        @Override
-        protected void onCancelled() {
-            mAuthTask = null;
-            showProgress(false);
-        }
-    }
 }
-

@@ -51,7 +51,10 @@
         <activity android:name=".edit.EditActivity" />
         <activity android:name=".accountList.FollowerActivity" />
         <activity android:name=".accountList.FanActivity" />
-        <activity android:name=".home.NavHeaderActivity"></activity>
+        <activity android:name=".home.NavHeaderActivity" />
+        <activity
+            android:name=".account.ResetActivity"
+            android:label="@string/title_activity_reset"></activity>
     </application>
 
 </manifest>
