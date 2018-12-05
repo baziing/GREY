@@ -38,6 +38,9 @@ public class SettingActivity extends AppCompatActivity {
                 switch (position){
                     case 0:
                         Toast.makeText(SettingActivity.this,option.getName(),Toast.LENGTH_SHORT).show();
+                        Intent intent=new Intent(SettingActivity.this,BackgroundActivity.class);
+                        startActivity(intent);
+//                        SettingActivity.this.finish();
                         break;
                         default:
                 }

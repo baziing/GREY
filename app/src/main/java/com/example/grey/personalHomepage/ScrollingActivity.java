@@ -1,21 +1,40 @@
 package com.example.grey.personalHomepage;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.grey.R;
 import com.example.grey.edit.EditActivity;
 import com.example.grey.home.DrawerActivity;
+import com.example.grey.setting.Background;
+import com.example.grey.setting.BackgroundActivity;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
 
 public class ScrollingActivity extends AppCompatActivity {
+
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +64,47 @@ public class ScrollingActivity extends AppCompatActivity {
             Toast.makeText(ScrollingActivity.this,"无用户消息",Toast.LENGTH_SHORT).show();
         }
 
+        imageView=findViewById(R.id.img_scrolling);
+
+        //查询数据
+        BmobQuery<Background> backgroundBmobQuery=new BmobQuery<>();
+        backgroundBmobQuery.addWhereEqualTo("user",BmobUser.getCurrentUser());
+        backgroundBmobQuery.findObjects(new FindListener<Background>() {
+            @Override
+            public void done(List<Background> list, BmobException e) {
+                if(e==null){
+                    String imageUrl=list.get(0).getUrl();
+                    Toast.makeText(ScrollingActivity.this, imageUrl, Toast.LENGTH_SHORT).show();
+                    Glide.with(ScrollingActivity.this).load(imageUrl).into(imageView);
+                }else{
+                    Toast.makeText(ScrollingActivity.this, "进行添加", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
     }
+
+//
+//    private Bitmap getURLimage(String imageUrl) {
+//        Bitmap bmp = null;
+//        try {
+//            URL myurl = new URL(imageUrl);
+//            // 获得连接
+//            HttpURLConnection conn = (HttpURLConnection) myurl.openConnection();
+//            conn.setConnectTimeout(6000);//设置超时
+//            conn.setDoInput(true);
+//            conn.setUseCaches(false);//不缓存
+//            conn.connect();
+//            InputStream is = conn.getInputStream();//获得图片的数据流
+//            bmp = BitmapFactory.decodeStream(is);
+//            is.close();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return bmp;
+//
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
