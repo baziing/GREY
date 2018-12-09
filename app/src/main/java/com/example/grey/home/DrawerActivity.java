@@ -1,7 +1,11 @@
 package com.example.grey.home;
 
+import android.content.Context;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -21,6 +25,8 @@ import com.example.grey.personalHomepage.ScrollingActivity;
 import com.example.grey.accountList.FanActivity;
 import com.example.grey.accountList.FollowerActivity;
 import com.example.grey.edit.EditActivity;
+import com.example.grey.sensor.ChangeOrientationHandler;
+import com.example.grey.sensor.OrientationSensorListener;
 import com.example.grey.setting.SettingActivity;
 
 import cn.bmob.v3.BmobUser;
@@ -28,10 +34,22 @@ import cn.bmob.v3.BmobUser;
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private Handler handler;
+    private OrientationSensorListener listener;
+    private SensorManager sm;
+    private Sensor sensor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawer);
+
+        handler = new ChangeOrientationHandler(this);
+        sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        listener = new OrientationSensorListener(handler);
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -117,5 +135,18 @@ public class DrawerActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+
+    @Override
+    protected void onPause() {
+        sm.unregisterListener(listener);
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+        super.onResume();
     }
 }

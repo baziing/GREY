@@ -37,26 +37,36 @@
         </activity>
         <activity
             android:name=".account.RegisterActivity"
-            android:label="@string/title_activity_register" />
+            android:label="@string/title_activity_register"
+            android:screenOrientation="sensor"/>
         <activity
             android:name=".home.DrawerActivity"
             android:label="@string/title_activity_drawer"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="sensor"/>
         <activity
             android:name=".personalHomepage.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".personalHomepage.MySearchActivity" />
-        <activity android:name=".home.SearchActivity" />
-        <activity android:name=".edit.EditActivity" />
-        <activity android:name=".accountList.FollowerActivity" />
-        <activity android:name=".accountList.FanActivity" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".personalHomepage.MySearchActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".home.SearchActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".edit.EditActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".accountList.FollowerActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".accountList.FanActivity"
+            android:screenOrientation="sensor"/>
         <activity android:name=".home.NavHeaderActivity" />
         <activity
             android:name=".account.ResetActivity"
             android:label="@string/title_activity_reset" />
-        <activity android:name=".setting.SettingActivity" />
-        <activity android:name=".setting.BackgroundActivity"/>
+        <activity android:name=".setting.SettingActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".setting.BackgroundActivity"
+            android:screenOrientation="sensor"/>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -65,8 +75,9 @@
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths"/>
+                android:resource="@xml/file_paths" />
         </provider>
+
     </application>
 
 </manifest>

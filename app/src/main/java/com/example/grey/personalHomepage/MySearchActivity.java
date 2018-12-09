@@ -1,9 +1,15 @@
 package com.example.grey.personalHomepage;
 
+import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.grey.R;
+import com.example.grey.sensor.ChangeOrientationHandler;
+import com.example.grey.sensor.OrientationSensorListener;
 
 import scut.carson_ho.searchview.ICallBack;
 import scut.carson_ho.searchview.SearchView;
@@ -12,12 +18,22 @@ import scut.carson_ho.searchview.bCallBack;
 public class MySearchActivity extends AppCompatActivity {
 
     private SearchView searchView;
+    private Handler handler;
+    private OrientationSensorListener listener;
+    private SensorManager sm;
+    private Sensor sensor;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_search);
+
+        handler = new ChangeOrientationHandler(this);
+        sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        listener = new OrientationSensorListener(handler);
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
 
         // 绑定组件
         searchView = (SearchView) findViewById(R.id.search_view);
@@ -39,6 +55,18 @@ public class MySearchActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    protected void onPause() {
+        sm.unregisterListener(listener);
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+        super.onResume();
     }
 
 }

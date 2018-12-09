@@ -3,8 +3,12 @@ package com.example.grey.account;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -42,6 +46,8 @@ import cn.bmob.v3.listener.LogInListener;
 
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.R;
+import com.example.grey.sensor.ChangeOrientationHandler;
+import com.example.grey.sensor.OrientationSensorListener;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -49,6 +55,11 @@ import static android.Manifest.permission.READ_CONTACTS;
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+
+    private Handler handler;
+    private OrientationSensorListener listener;
+    private SensorManager sm;
+    private Sensor sensor;
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -95,6 +106,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
+        handler = new ChangeOrientationHandler(this);
+        sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        listener = new OrientationSensorListener(handler);
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+
         //初始化toolbar
         Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -130,6 +147,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+    }
+
+    @Override
+    protected void onResume() {
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        sm.unregisterListener(listener);
+        super.onPause();
     }
 
     private void populateAutoComplete() {
