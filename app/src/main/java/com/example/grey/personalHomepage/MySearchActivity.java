@@ -1,6 +1,7 @@
 package com.example.grey.personalHomepage;
 
 import android.content.Context;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.grey.R;
+import com.example.grey.search.ResultActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 
@@ -44,6 +46,16 @@ public class MySearchActivity extends AppCompatActivity {
             @Override
             public void SearchAciton(String string) {
                 System.out.println("我收到了" + string);
+
+                Intent intent=new Intent(MySearchActivity.this,MyResultActivity.class);
+                intent.putExtra("key",string);
+
+                startActivity(intent);
+
+//                //传递给下一activity
+//                Intent intent=new Intent(MySearchActivity.this, ResultActivity.class);
+//                intent.putExtra("extra_data",string);
+//                startActivity(intent);
             }
         });
 

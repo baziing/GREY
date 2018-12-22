@@ -14,8 +14,13 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.grey.R;
+import com.example.grey.post.Post;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
+
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.SaveListener;
 
 public class EditActivity extends AppCompatActivity {
 
@@ -69,7 +74,24 @@ public class EditActivity extends AppCompatActivity {
                 break;
             case R.id.sendup:
                 String inputText=editText.getText().toString();//获取输入的文字
-                Toast.makeText(EditActivity.this,inputText,Toast.LENGTH_SHORT).show();
+                //获取当前的时间
+
+                long time = System.currentTimeMillis();
+
+                Post post=new Post(inputText, BmobUser.getCurrentUser(),0,0,BmobUser.getCurrentUser().getUsername());
+                post.setTime(time);
+                post.save(new SaveListener<String>() {
+                    @Override
+                    public void done(String s, BmobException e) {
+                        if (e==null){
+                    Toast.makeText(EditActivity.this, "建帖成功", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(EditActivity.this, "建帖失败", Toast.LENGTH_SHORT).show();
+                }
+                    }
+                });
+
+//                Toast.makeText(EditActivity.this,inputText,Toast.LENGTH_SHORT).show();
                 editText.getText().clear();
                 break;
                 default:

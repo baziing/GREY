@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home.SearchActivity">
+    tools:context=".search.SearchActivity">
 
-    <FrameLayout
+    <LinearLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <scut.carson_ho.searchview.SearchView
             android:id="@+id/search_view"
@@ -21,6 +22,6 @@
             app:searchBlockHeight="150"
             app:searchBlockColor="#ffffff"
             />
-    </FrameLayout>
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

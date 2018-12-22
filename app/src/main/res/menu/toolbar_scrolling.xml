@@ -6,18 +6,25 @@
         android:orderInCategory="100"
         android:title="edit"
         android:icon="@mipmap/ic_pencil_white_24dp"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/toolbar_search"
         android:orderInCategory="100"
         android:title="search"
-        android:icon="@mipmap/ic_magnify_white_24dp"
-        app:showAsAction="ifRoom" />
+        android:icon="@mipmap/ic_magnify_white_24dp"  
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/toolbar_refresh"
+        android:title="refresh"
+        android:icon="@mipmap/ic_autorenew_white_24dp"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/toolbar_follow"
         android:title="search"
         android:icon="@mipmap/ic_eye_plus_outline_white_24dp"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
+
 </menu>

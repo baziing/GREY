@@ -38,35 +38,42 @@
         <activity
             android:name=".account.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:screenOrientation="sensor"/>
+            android:screenOrientation="sensor" />
         <activity
             android:name=".home.DrawerActivity"
             android:label="@string/title_activity_drawer"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="sensor"/>
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".personalHomepage.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".personalHomepage.MySearchActivity"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".home.SearchActivity"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".edit.EditActivity"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".accountList.FollowerActivity"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".accountList.FanActivity"
-            android:screenOrientation="sensor"/>
+            android:screenOrientation="sensor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".personalHomepage.MySearchActivity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".search.SearchActivity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".edit.EditActivity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".accountList.FollowerActivity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".accountList.FanActivity"
+            android:screenOrientation="sensor" />
         <activity android:name=".home.NavHeaderActivity" />
         <activity
             android:name=".account.ResetActivity"
             android:label="@string/title_activity_reset" />
-        <activity android:name=".setting.SettingActivity"
-            android:screenOrientation="sensor"/>
-        <activity android:name=".setting.BackgroundActivity"
-            android:screenOrientation="sensor"/>
+        <activity
+            android:name=".setting.SettingActivity"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".setting.BackgroundActivity"
+            android:screenOrientation="sensor" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -78,6 +85,8 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
+        <activity android:name=".search.ResultActivity" />
+        <activity android:name=".personalHomepage.MyResultActivity"></activity>
     </application>
 
 </manifest>

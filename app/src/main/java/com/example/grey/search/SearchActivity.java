@@ -1,16 +1,30 @@
-package com.example.grey.home;
+package com.example.grey.search;
 
 import android.content.Context;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.widget.Toast;
 
 import com.example.grey.R;
+import com.example.grey.post.MyRecyclerViewAdapter;
+import com.example.grey.post.Post;
+import com.example.grey.post.PostItemDecoration;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
 import scut.carson_ho.searchview.ICallBack;
 import scut.carson_ho.searchview.SearchView;
 import scut.carson_ho.searchview.bCallBack;
@@ -45,6 +59,11 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void SearchAciton(String string) {
                 System.out.println("我收到了" + string);
+
+                //传递给下一activity
+                Intent intent=new Intent(SearchActivity.this, ResultActivity.class);
+                intent.putExtra("extra_data",string);
+                startActivity(intent);
             }
         });
 
