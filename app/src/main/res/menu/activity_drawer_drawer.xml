@@ -20,6 +20,11 @@
             android:id="@+id/nav_settings"
             android:icon="@mipmap/ic_cogs_white_24dp"
             android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_square"
+            android:icon="@mipmap/ic_square_inc_white_24dp"
+            android:title="Square"/>
     </group>
 
     <item android:title="Communicate">

@@ -274,6 +274,7 @@ public class ScrollingActivity extends AppCompatActivity {
                 if (e==null){
                     String objectId=list.get(0).getObjectId();
                     post.addAgree();
+                    post.addAgreeList();
                     post.update(objectId, new UpdateListener() {
                         @Override
                         public void done(BmobException e) {
@@ -306,6 +307,7 @@ public class ScrollingActivity extends AppCompatActivity {
                 if (e==null){
                     String objectId=list.get(0).getObjectId();
                     post.addDisagree();
+                    post.addDisagreeList();
                     post.update(objectId, new UpdateListener() {
                         @Override
                         public void done(BmobException e) {

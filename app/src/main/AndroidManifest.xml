@@ -86,7 +86,9 @@
         </provider>
 
         <activity android:name=".search.ResultActivity" />
-        <activity android:name=".personalHomepage.MyResultActivity"></activity>
+        <activity android:name=".personalHomepage.MyResultActivity" />
+        <activity android:name=".home.SquareActivity" />
+        <activity android:name=".WelcomeActivity"></activity>
     </application>
 
 </manifest>

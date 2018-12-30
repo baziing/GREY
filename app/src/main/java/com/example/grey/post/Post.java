@@ -1,5 +1,8 @@
 package com.example.grey.post;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
@@ -17,6 +20,9 @@ public class Post extends BmobObject {
     private String name;
 
     private long time;
+
+    private List<String>agreeList=new ArrayList<>();
+    private List<String>disagreeList=new ArrayList<>();
 
     public Post(){
 
@@ -105,5 +111,31 @@ public class Post extends BmobObject {
 
     public void setTime(long time){
         this.time=time;
+    }
+
+    public boolean isFoundAgree(){
+        //搜索
+        BmobUser user = BmobUser.getCurrentUser();
+        String id=user.getObjectId();
+        return this.agreeList.contains(id);
+    }
+
+    public boolean isFoundDisagree(){
+        //搜索
+        BmobUser user = BmobUser.getCurrentUser();
+        String id=user.getObjectId();
+        return this.disagreeList.contains(id);
+    }
+
+    public void addAgreeList(){
+        BmobUser user = BmobUser.getCurrentUser();
+        String id=user.getObjectId();
+        this.agreeList.add(id);
+    }
+
+    public void addDisagreeList(){
+        BmobUser user = BmobUser.getCurrentUser();
+        String id=user.getObjectId();
+        this.disagreeList.add(id);
     }
 }

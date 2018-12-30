@@ -44,6 +44,7 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 
+import com.example.grey.WelcomeActivity;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
@@ -264,7 +265,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 public void done(User user, BmobException e) {
                     if(user!=null){
                         Toast.makeText(LoginActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
-                        Intent intent=new Intent(LoginActivity.this,DrawerActivity.class);
+                        Intent intent=new Intent(LoginActivity.this,WelcomeActivity.class);
                         startActivity(intent);
                         LoginActivity.this.finish();
                     }else {

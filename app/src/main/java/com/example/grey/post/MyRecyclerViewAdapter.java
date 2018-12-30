@@ -100,6 +100,22 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         String name1=post.getName();
         String name2=BmobUser.getCurrentUser().getUsername();
 
+        if (post.isFoundAgree()){
+            viewHolder.buttonAgree.setText(String.valueOf("已赞同"));
+            viewHolder.buttonAgree.setEnabled(false);
+        }else {
+            viewHolder.buttonAgree.setText(String.valueOf(post.getAgree()));
+            viewHolder.buttonAgree.setEnabled(true);
+        }
+
+        if (post.isFoundDisagree()){
+            viewHolder.buttonDisagree.setText(String.valueOf("已反对"));
+            viewHolder.buttonDisagree.setEnabled(false);
+        }else {
+            viewHolder.buttonDisagree.setText(String.valueOf(post.getDisagree()));
+            viewHolder.buttonDisagree.setEnabled(true);
+        }
+
         if (!name2.equals(name1))
         {
             viewHolder.buttonTrush.setText("转发");

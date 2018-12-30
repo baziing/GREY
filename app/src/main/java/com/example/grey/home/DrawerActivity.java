@@ -37,8 +37,6 @@ import com.example.grey.setting.SettingActivity;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
@@ -335,6 +333,7 @@ public class DrawerActivity extends AppCompatActivity
                 if (e==null){
                     String objectId=list.get(0).getObjectId();
                     post.addAgree();
+                    post.addAgreeList();
                     post.update(objectId, new UpdateListener() {
                         @Override
                         public void done(BmobException e) {
@@ -367,6 +366,7 @@ public class DrawerActivity extends AppCompatActivity
                 if (e==null){
                     String objectId=list.get(0).getObjectId();
                     post.addDisagree();
+                    post.addDisagreeList();
                     post.update(objectId, new UpdateListener() {
                         @Override
                         public void done(BmobException e) {
@@ -471,6 +471,10 @@ public class DrawerActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_send) {
 
+        } else if(id==R.id.nav_square){
+            Intent intent=new Intent(DrawerActivity.this, SquareActivity.class);
+            startActivity(intent);
+            DrawerActivity.this.finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
