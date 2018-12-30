@@ -3,6 +3,7 @@ package com.example.grey.account;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.hardware.Sensor;
@@ -24,6 +25,7 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -38,6 +40,10 @@ import android.widget.Toast;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
+import com.hyphenate.EMError;
+import com.hyphenate.chat.EMChatManager;
+import com.hyphenate.chat.EMClient;
+import com.hyphenate.exceptions.HyphenateException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -81,6 +87,7 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
     private EditText mUserNameView;
     private View mProgressView;
     private View mLoginFormView;
+    private ProgressDialog mDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -199,10 +206,10 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
         mPasswordView.setError(null);
 
         // Store values at the time of the login attempt.
-        String email = mEmailView.getText().toString();
-        String password = mPasswordView.getText().toString();
+        final String email = mEmailView.getText().toString();
+        final String password = mPasswordView.getText().toString();
         String password_confirm=mPasswordView_confirm.getText().toString();
-        String username=mUserNameView.getText().toString();
+        final String username=mUserNameView.getText().toString();
 
         boolean cancel = false;
         View focusView = null;
@@ -244,21 +251,112 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             mAuthTask.execute((Void) null);
 
             //注册用户，上传到云端
-            User user=new User();
-            user.setUsername(username);
-            user.setPassword(password);
-            user.setEmail(email);
-            user.signUp(new SaveListener<User>() {
-                @Override
-                public void done(User user, BmobException e) {
-                    if(e==null){
-                        Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
-                    }else{
-                        Toast.makeText(RegisterActivity.this,"创建用户失败：" + e.getMessage(),Toast.LENGTH_SHORT).show();
+            mDialog = new ProgressDialog(this);
+            mDialog.setMessage("注册中，请稍后...");
+            mDialog.show();
+            new Thread(new Runnable() {
+                @Override public void run() {
+                    try {
+                        EMClient.getInstance().createAccount(username, password);
+                        runOnUiThread(new Runnable() {
+                            @Override public void run() {
+                                if (!RegisterActivity.this.isFinishing()) {
+                                    mDialog.dismiss();
+                                }
+                                //注册成功
+                                User user=new User();
+                                user.setUsername(username);
+                                user.setPassword(password);
+                                user.setEmail(email);
+                                user.signUp(new SaveListener<User>() {
+                                    @Override
+                                    public void done(User user, BmobException e) {
+                                        if(e==null){
+                                            Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
+                                        }else{
+                                            Toast.makeText(RegisterActivity.this,"创建用户失败：" + e.getMessage(),Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                });
+                            }
+                        });
+                    } catch (final HyphenateException e) {
+                        e.printStackTrace();
+                        runOnUiThread(new Runnable() {
+                            @Override public void run() {
+                                if (!RegisterActivity.this.isFinishing()) {
+                                    mDialog.dismiss();
+                                }
+                                /**
+                                 * 关于错误码可以参考官方api详细说明
+                                 * http://www.easemob.com/apidoc/android/chat3.0/classcom_1_1hyphenate_1_1_e_m_error.html
+                                 */
+                                int errorCode = e.getErrorCode();
+                                String message = e.getMessage();
+                                Log.d("error",
+                                        String.format("sign up - errorCode:%d, errorMsg:%s", errorCode,
+                                                e.getMessage()));
+                                switch (errorCode) {
+                                    // 网络错误
+                                    case EMError.NETWORK_ERROR:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "网络错误 code: " + errorCode + ", message:" + message,
+                                                Toast.LENGTH_LONG).show();
+                                        break;
+                                    // 用户已存在
+                                    case EMError.USER_ALREADY_EXIST:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "用户已存在 code: " + errorCode + ", message:" + message,
+                                                Toast.LENGTH_LONG).show();
+                                        break;
+                                    // 参数不合法，一般情况是username 使用了uuid导致，不能使用uuid注册
+                                    case EMError.USER_ILLEGAL_ARGUMENT:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "参数不合法，一般情况是username 使用了uuid导致，不能使用uuid注册 code: "
+                                                        + errorCode
+                                                        + ", message:"
+                                                        + message, Toast.LENGTH_LONG).show();
+                                        break;
+                                    // 服务器未知错误
+                                    case EMError.SERVER_UNKNOWN_ERROR:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "服务器未知错误 code: " + errorCode + ", message:" + message,
+                                                Toast.LENGTH_LONG).show();
+                                        break;
+                                    case EMError.USER_REG_FAILED:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "账户注册失败 code: " + errorCode + ", message:" + message,
+                                                Toast.LENGTH_LONG).show();
+                                        break;
+                                    default:
+                                        Toast.makeText(RegisterActivity.this,
+                                                "ml_sign_up_failed code: " + errorCode + ", message:" + message,
+                                                Toast.LENGTH_LONG).show();
+                                        break;
+                                }
+                            }
+                        });
+                    } catch (Exception e) {
+                        e.printStackTrace();
                     }
                 }
-            });
+            }).start();
 
+
+//            User user=new User();
+//            user.setUsername(username);
+//            user.setPassword(password);
+//            user.setEmail(email);
+//            user.signUp(new SaveListener<User>() {
+//                @Override
+//                public void done(User user, BmobException e) {
+//                    if(e==null){
+//                        Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
+//                    }else{
+//                        Toast.makeText(RegisterActivity.this,"创建用户失败：" + e.getMessage(),Toast.LENGTH_SHORT).show();
+//                    }
+//                }
+//            });
         }
     }
 

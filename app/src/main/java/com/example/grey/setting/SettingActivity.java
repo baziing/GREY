@@ -18,6 +18,7 @@ import com.example.grey.account.LoginActivity;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
+import com.hyphenate.chat.EMClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,6 +67,7 @@ public class SettingActivity extends AppCompatActivity {
                         startActivity(intent1);
                         SettingActivity.this.finish();
                         BmobUser.logOut();
+                        EMClient.getInstance().logout(true);
                         break;
                         default:
                 }
