@@ -21,14 +21,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,82 +54,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawerActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
+      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="150" column="11" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="150" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="36" column="47" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyRecyclerViewAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="115" column="55" lean-forward="false" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_square.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/WelcomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="370">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1700#2008#0" expanded="true" />
+                <element signature="e#2007#2008#0" expanded="true" />
+                <element signature="e#2473#2474#0" expanded="true" />
+                <element signature="e#2547#2548#0" expanded="true" />
+                <element signature="e#2577#2578#0" expanded="true" />
+                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#3726#4007#0" expanded="true" />
+                <element signature="e#4006#4007#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java">
+      <file leaf-file-name="PostList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="267" column="83" lean-forward="false" selection-start-line="267" selection-start-column="83" selection-end-line="267" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="685">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4517#5059#0" expanded="true" />
+                <element signature="e#5058#5059#0" expanded="true" />
+                <element signature="e#11706#11707#0" expanded="true" />
+                <element signature="e#11744#11745#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_welcome.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
+      <file leaf-file-name="MyResultActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="954">
+              <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <element signature="e#2992#2993#0" expanded="true" />
+                <element signature="e#3035#3036#0" expanded="true" />
+                <element signature="e#4074#4335#0" expanded="true" />
+                <element signature="e#4334#4335#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="ScrollingActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2472">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#4911#4912#0" expanded="true" />
+                <element signature="e#4948#4949#0" expanded="true" />
+                <element signature="e#5988#6249#0" expanded="true" />
+                <element signature="e#6248#6249#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -151,7 +138,6 @@
       <find>MyItemClickListener</find>
       <find>search</find>
       <find>关注</find>
-      <find>key</find>
       <find>失败</find>
       <find>case</find>
       <find>button</find>
@@ -163,7 +149,12 @@
       <find>post.addAgree();</find>
       <find>updateAgree</find>
       <find>intent</find>
+      <find>delete</find>
+      <find>trush</find>
+      <find>number</find>
       <find>finish</find>
+      <find>key</find>
+      <find>position</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2201,18 +2192,23 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/post.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/SquareActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/PostList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java" />
       </list>
     </option>
   </component>
@@ -2667,36 +2663,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="186" column="65" lean-forward="false" selection-start-line="186" selection-start-column="65" selection-end-line="186" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="107" column="46" lean-forward="false" selection-start-line="107" selection-start-column="46" selection-end-line="107" selection-end-column="46" />
-          <folding>
-            <element signature="e#4335#4336#0" expanded="false" />
-            <element signature="e#4373#4374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/post.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -2723,7 +2689,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1980">
           <caret line="162" column="65" lean-forward="false" selection-start-line="162" selection-start-column="65" selection-end-line="162" selection-end-column="65" />
-          <folding />
+          <folding>
+            <element signature="e#2660#2661#0" expanded="false" />
+            <element signature="e#2701#2702#0" expanded="false" />
+            <element signature="e#3817#4098#0" expanded="false" />
+            <element signature="e#4097#4098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2742,7 +2713,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="99" column="25" lean-forward="false" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-          <folding />
+          <folding>
+            <element signature="e#2660#2661#0" expanded="false" />
+            <element signature="e#2701#2702#0" expanded="false" />
+            <element signature="e#3817#4098#0" expanded="false" />
+            <element signature="e#4097#4098#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2987,14 +2963,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -3004,14 +2972,6 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="309" column="43" lean-forward="true" selection-start-line="309" selection-start-column="43" selection-end-line="309" selection-end-column="43" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java">
@@ -3063,45 +3023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="308" column="43" lean-forward="true" selection-start-line="308" selection-start-column="43" selection-end-line="308" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="313" column="5" lean-forward="false" selection-start-line="283" selection-start-column="4" selection-end-line="313" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1510#1794#0" expanded="false" />
-            <element signature="e#1793#1794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -3129,30 +3050,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="36" column="47" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="276">
+          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding>
+            <element signature="e#2865#3289#0" expanded="false" />
+            <element signature="e#3288#3289#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/WelcomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state relative-caret-position="660">
+          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+          <folding>
+            <element signature="e#1379#1560#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#4517#5059#0" expanded="true" />
+            <element signature="e#5058#5059#0" expanded="true" />
+            <element signature="e#11706#11707#0" expanded="true" />
+            <element signature="e#11744#11745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="e#2660#2661#0" expanded="false" />
+            <element signature="e#2701#2702#0" expanded="false" />
+            <element signature="e#3817#4098#0" expanded="false" />
+            <element signature="e#4097#4098#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="150" column="11" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="150" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="154">
+          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1700#2008#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2473#2474#0" expanded="true" />
+            <element signature="e#2547#2548#0" expanded="true" />
+            <element signature="e#2577#2578#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#3726#4007#0" expanded="true" />
+            <element signature="e#4006#4007#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#4074#4335#0" expanded="true" />
+            <element signature="e#4334#4335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2472">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#4911#4912#0" expanded="true" />
+            <element signature="e#4948#4949#0" expanded="true" />
+            <element signature="e#5988#6249#0" expanded="true" />
+            <element signature="e#6248#6249#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

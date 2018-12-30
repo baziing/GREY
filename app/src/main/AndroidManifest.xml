@@ -88,7 +88,8 @@
         <activity android:name=".search.ResultActivity" />
         <activity android:name=".personalHomepage.MyResultActivity" />
         <activity android:name=".home.SquareActivity" />
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".home.WelcomeActivity" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>

@@ -44,8 +44,7 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 
-import com.example.grey.WelcomeActivity;
-import com.example.grey.home.DrawerActivity;
+import com.example.grey.home.WelcomeActivity;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
