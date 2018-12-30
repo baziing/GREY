@@ -41,4 +41,6 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.8.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     implementation 'top.zibin:Luban:1.1.8'
+    implementation 'com.google.android.gms:play-services-gcm:16.0.0'
+    implementation 'com.hyphenate:hyphenate-sdk:3.3.0'
 }

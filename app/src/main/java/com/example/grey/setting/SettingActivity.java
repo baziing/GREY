@@ -14,12 +14,15 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.example.grey.R;
+import com.example.grey.account.LoginActivity;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.bmob.v3.BmobUser;
 
 public class SettingActivity extends AppCompatActivity {
 
@@ -57,6 +60,13 @@ public class SettingActivity extends AppCompatActivity {
                         startActivity(intent);
 //                        SettingActivity.this.finish();
                         break;
+                    case 1:
+                        Toast.makeText(SettingActivity.this,option.getName(),Toast.LENGTH_SHORT).show();
+                        Intent intent1=new Intent(SettingActivity.this,LoginActivity.class);
+                        startActivity(intent1);
+                        SettingActivity.this.finish();
+                        BmobUser.logOut();
+                        break;
                         default:
                 }
             }
@@ -79,8 +89,9 @@ public class SettingActivity extends AppCompatActivity {
 
     //添加对应的选项
     private void initOptions(){
-        Option option=new Option("修改背景",R.mipmap.ic_account_box_grey600_36dp);
-        optionList.add(option);
+//        Option option=new Option("修改背景",R.mipmap.ic_account_box_grey600_36dp);
+        optionList.add(new Option("修改背景",R.mipmap.ic_account_box_grey600_36dp));
+        optionList.add(new Option("退出账号",R.mipmap.ic_account_arrow_right_outline_grey600_36dp));
     }
 
     @Override

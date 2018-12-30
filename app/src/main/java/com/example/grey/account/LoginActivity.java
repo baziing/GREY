@@ -44,6 +44,7 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 
+import com.example.grey.home.DrawerActivity;
 import com.example.grey.home.WelcomeActivity;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
@@ -91,6 +92,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         //bomb初始化
         Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
         // Set up the login form.
+
+        //自动登录
+        BmobUser bmobUser = BmobUser.getCurrentUser();
+        if(bmobUser!=null){
+            Intent intent1=new Intent(LoginActivity.this, DrawerActivity.class);
+            startActivity(intent1);
+            LoginActivity.this.finish();
+        }
+
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
