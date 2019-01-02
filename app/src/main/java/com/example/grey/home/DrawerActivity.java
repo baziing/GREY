@@ -22,6 +22,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.example.grey.ChatActivity;
+import com.example.grey.ConversationListActivity;
 import com.example.grey.ECChatActivity;
 import com.example.grey.R;
 import com.example.grey.SearchFriendsActivity;
@@ -222,10 +223,12 @@ public class DrawerActivity extends AppCompatActivity
             DrawerActivity.this.finish();
         } else if (id == R.id.nav_share) {
 //            Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
-            String string="qaz";
-            Intent intent=new Intent(DrawerActivity.this,ECChatActivity.class);
-            intent.putExtra(EaseConstant.EXTRA_USER_ID,string.trim());
-            intent.putExtra(EaseConstant.EXTRA_CHAT_TYPE,EMMessage.ChatType.Chat);
+//            String string="qaz";
+//            Intent intent=new Intent(DrawerActivity.this,ECChatActivity.class);
+//            intent.putExtra(EaseConstant.EXTRA_USER_ID,string.trim());
+//            intent.putExtra(EaseConstant.EXTRA_CHAT_TYPE,EMMessage.ChatType.Chat);
+//            startActivity(intent);
+            Intent intent=new Intent(DrawerActivity.this, ConversationListActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_send) {

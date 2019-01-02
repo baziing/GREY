@@ -72,7 +72,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private Sensor sensor;
     private Context mContext;
     private boolean isInit = false;
-    private ProgressDialog mDialog;
+//    private ProgressDialog mDialog;
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -329,9 +329,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
-        mDialog = new ProgressDialog(this);
-        mDialog.setMessage("正在登陆，请稍后...");
-        mDialog.show();
+//        mDialog = new ProgressDialog(this);
+//        mDialog.setMessage("正在登陆，请稍后...");
+//        mDialog.show();
 
         if (mAuthTask != null) {
             return;
@@ -415,9 +415,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 
     private void signIn(String username,String password) {
-        mDialog = new ProgressDialog(this);
-        mDialog.setMessage("正在登陆，请稍后...");
-        mDialog.show();
+//        mDialog = new ProgressDialog(this);
+//        mDialog.setMessage("正在登陆，请稍后...");
+//        mDialog.show();
         EMClient.getInstance().login(username, password, new EMCallBack() {
             /**
              * 登陆成功的回调
@@ -425,7 +425,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override public void onSuccess() {
                 runOnUiThread(new Runnable() {
                     @Override public void run() {
-                        mDialog.dismiss();
+//                        mDialog.dismiss();
                         // 加载所有会话到内存
                         EMClient.getInstance().chatManager().loadAllConversations();
                         // 加载所有群组到内存，如果使用了群组的话
@@ -446,7 +446,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override public void onError(final int i, final String s) {
                 runOnUiThread(new Runnable() {
                     @Override public void run() {
-                        mDialog.dismiss();
+//                        mDialog.dismiss();
                         Log.d("lzan13", "登录失败 Error code:" + i + ", message:" + s);
                         /**
                          * 关于错误码可以参考官方api详细说明

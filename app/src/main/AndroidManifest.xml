@@ -125,7 +125,8 @@
         <activity android:name=".SearchFriendsActivity" />
         <activity android:name=".chatui.ui.activity.MainActivity" />
         <activity android:name=".ECChatActivity" />
-        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ConversationListActivity"></activity>
     </application>
 
 </manifest>
