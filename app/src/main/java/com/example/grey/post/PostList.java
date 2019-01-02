@@ -8,6 +8,7 @@ import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.Bmob;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
@@ -20,9 +21,11 @@ public class PostList{
     public List<Post> postList=new ArrayList<>();
     public boolean postIsCurrentUser;
 
-    public PostList(){}
+    public PostList(){
+    }
 
     public void initData(){
+        Bmob.initialize(Bmob.getApplicationContext(), "796037cf0d5cb806545e84bed5238df5");
         BmobQuery<Post>postBmobQuery=new BmobQuery<>();
         postBmobQuery.order("-createdAt");
         postBmobQuery.findObjects(new FindListener<Post>() {

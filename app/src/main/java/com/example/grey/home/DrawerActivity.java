@@ -20,22 +20,26 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Toast;
 
+import com.example.grey.ChatActivity;
+import com.example.grey.ECChatActivity;
 import com.example.grey.R;
+import com.example.grey.SearchFriendsActivity;
 import com.example.grey.TestActivity;
 import com.example.grey.personalHomepage.ScrollingActivity;
-import com.example.grey.accountList.FanActivity;
 import com.example.grey.accountList.FollowerActivity;
 import com.example.grey.edit.EditActivity;
 import com.example.grey.post.MyRecyclerViewAdapter;
-import com.example.grey.post.Post;
 import com.example.grey.post.PostItemDecoration;
 import com.example.grey.post.PostList;
 import com.example.grey.search.SearchActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 import com.example.grey.setting.SettingActivity;
+import com.hyphenate.chat.EMMessage;
+import com.hyphenate.easeui.EaseConstant;
+
+import cn.bmob.v3.Bmob;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -60,6 +64,7 @@ public class DrawerActivity extends AppCompatActivity
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
+
 
                 postList.refreshData();
 
@@ -211,15 +216,17 @@ public class DrawerActivity extends AppCompatActivity
             Intent intent=new Intent(DrawerActivity.this,FollowerActivity.class);
             startActivity(intent);
             DrawerActivity.this.finish();
-        } else if (id == R.id.nav_fans) {
-            Intent intent=new Intent(DrawerActivity.this,FanActivity.class);
-            startActivity(intent);
-            DrawerActivity.this.finish();
         } else if (id == R.id.nav_settings) {
             Intent intent=new Intent(DrawerActivity.this,SettingActivity.class);
             startActivity(intent);
             DrawerActivity.this.finish();
         } else if (id == R.id.nav_share) {
+//            Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
+            String string="qaz";
+            Intent intent=new Intent(DrawerActivity.this,ECChatActivity.class);
+            intent.putExtra(EaseConstant.EXTRA_USER_ID,string.trim());
+            intent.putExtra(EaseConstant.EXTRA_CHAT_TYPE,EMMessage.ChatType.Chat);
+            startActivity(intent);
 
         } else if (id == R.id.nav_send) {
             Intent intent=new Intent(DrawerActivity.this, TestActivity.class);
@@ -227,6 +234,10 @@ public class DrawerActivity extends AppCompatActivity
             DrawerActivity.this.finish();
         } else if(id==R.id.nav_square){
             Intent intent=new Intent(DrawerActivity.this, SquareActivity.class);
+            startActivity(intent);
+            DrawerActivity.this.finish();
+        } else if (id==R.id.nav_search_friends){
+            Intent intent=new Intent(DrawerActivity.this, SearchFriendsActivity.class);
             startActivity(intent);
             DrawerActivity.this.finish();
         }

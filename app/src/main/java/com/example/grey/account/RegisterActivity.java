@@ -37,6 +37,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.grey.EMUser;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
@@ -264,6 +265,8 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
                                     mDialog.dismiss();
                                 }
                                 //注册成功
+                                EMUser emUser=new EMUser();
+
                                 User user=new User();
                                 user.setUsername(username);
                                 user.setPassword(password);
@@ -272,7 +275,15 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
                                     @Override
                                     public void done(User user, BmobException e) {
                                         if(e==null){
-                                            Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
+                                            EMUser emUser=new EMUser(user);
+                                            emUser.save(new SaveListener<String>() {
+                                                @Override
+                                                public void done(String s, BmobException e) {
+                                                    if (e==null){
+                                                        Toast.makeText(RegisterActivity.this,"注册用户成功",Toast.LENGTH_SHORT).show();
+                                                    }
+                                                }
+                                            });
                                         }else{
                                             Toast.makeText(RegisterActivity.this,"创建用户失败：" + e.getMessage(),Toast.LENGTH_SHORT).show();
                                         }

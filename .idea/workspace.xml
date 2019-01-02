@@ -9,7 +9,20 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482de630-3785-4ec1-9482-34287b94c047" name="Default" comment="">
+    <list default="true" id="4bfd4bd4-dc4b-4035-902d-ad03092738c6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hyphenate_hyphenate_sdk_3_5_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jude_easyrecyclerview_4_2_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_greenrobot_eventbus_3_1_1_jar.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUserAdapter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_friends.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/searchfriend.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/attr.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
@@ -23,54 +36,416 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_jhz_Documents_GitHub_GREY_easeui_libs_BaiduLBS_Android_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_jhz_Documents_GitHub_GREY_easeui_libs_MiPush_SDK_Client_2_2_19_jar_unspecified_jar.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_jhz_Documents_GitHub_GREY_easeui_libs_hyphenatechat_3_5_2_jar_unspecified_jar.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars____Users_jhz_Documents_GitHub_GREY_easeui_libs_org_apache_http_legacy_jar_unspecified_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_26_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_0_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_3_7_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_4_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_4_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_4_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_8_0_jar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_8_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_11_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_11_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gcm_10_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_iid_10_2_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_11_4_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hyphenate_hyphenate_sdk_3_4_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_manage.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fan.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_scrolling.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/toolbar_mysearch.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_account_box_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_arrow_down_bold_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_arrow_up_bold_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_email_lock_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_email_lock_white_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_home_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_home_white_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_radar_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_radar_white_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_square_inc_grey600_24dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_lock_reset_grey600_36dp.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/easeui/build.gradle" afterPath="$PROJECT_DIR$/easeui/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FanActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFanAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_follower.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_follower.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change beforePath="$PROJECT_DIR$/easeui/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/build.gradle" afterPath="" />
       <change beforePath="$PROJECT_DIR$/easeui/easeui.iml" afterPath="$PROJECT_DIR$/easeui/easeui.iml" />
+      <change beforePath="$PROJECT_DIR$/easeui/libs/BaiduLBS_Android.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/libs/MiPush_SDK_Client_2_2_19.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/libs/hyphenatechat_3.5.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/libs/org.apache.http.legacy.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/proguard-rules.pro" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/androidTest/java/com/hyphenate/easeui/ExampleInstrumentedTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/androidTest/java/com/hyphenate/easeui/model/EaseDingMessageHelperTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/EaseConstant.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/EaseUI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseContactAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseConversationAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseExpressionPagerAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseMessageAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EmojiconGridAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EmojiconPagerAdapter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/domain/EaseAvatarOptions.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/domain/EaseEmojicon.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/domain/EaseEmojiconGroupEntity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/domain/EaseUser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseAtMessageHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseCompat.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseDefaultEmojiconDatas.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseDingMessageHelper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseImageCache.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseNotifier.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EasePreferenceManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EaseVoiceRecorder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/styles/EaseMessageListItemStyle.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaiduMapActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseChatFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseChatRoomListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseContactListFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseConversationListFragment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseDingAckUserListActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseDingMsgSendActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseGroupListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseGroupRemoveListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowBigImageActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowNormalFileActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowVideoActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseCommonUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseImageUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseLoadLocalBigImgTask.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseSmileUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseUserUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseAlertDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseChatExtendMenu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseChatInputMenu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseChatMessageList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseChatPrimaryMenu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseChatPrimaryMenuBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseContactList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseConversationList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseExpandGridView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseImageView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseSidebar.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseSwitchButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseTitleBar.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/EaseVoiceRecorderView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRow.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowBigExpression.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowFile.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowImage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowLocation.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowText.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowVideo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowVoice.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowVoicePlayClickListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRowVoicePlayer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseCustomChatRowProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/emojicon/EaseEmojiconIndicatorView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/emojicon/EaseEmojiconMenu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/emojicon/EaseEmojiconMenuBase.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/emojicon/EaseEmojiconPagerView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/emojicon/EaseEmojiconScrollTabBar.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/Compat.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/EasePhotoView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/IPhotoView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/PhotoViewAttacher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/SDK16.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/ScrollerProxy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/photoview/VersionedGestureDetector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatBigExpressionPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatFilePresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatImagePresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatLocationPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatRowPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatTextPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatVideoPresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatVoicePresenter.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libhyphenate.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libhyphenate_av.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libhyphenate_av_recorder.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/liblocSDK7.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/arm64-v8a/libsqlite.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libhyphenate.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libhyphenate_av.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libhyphenate_av_recorder.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/liblocSDK7.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi-v7a/libsqlite.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/armeabi/liblocSDK7.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libBaiduMapSDK_base_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libBaiduMapSDK_map_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libBaiduMapSDK_util_v4_0_0.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libhyphenate.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libhyphenate_av.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libhyphenate_av_recorder.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/liblocSDK7.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/jniLibs/x86/libsqlite.so" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/fade_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/fade_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/head_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/head_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/hold.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_bottom_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_bottom_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_top_in.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_top_in2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_top_out.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/push_top_out2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/slide_in_from_left.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/slide_in_from_right.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/slide_out_to_left.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/slide_out_to_right.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/voice_from_icon.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/anim/voice_to_icon.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_app_panel_video_icon.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_appitem_del_btn_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_appitem_del_btn_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chat_face_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chat_face_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chat_video_mask_to.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_bg_focused.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_voice_playing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_voice_playing_f1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_voice_playing_f2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatfrom_voice_playing_f3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_biaoqing_btn_enable.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_biaoqing_btn_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_setmode_keyboard_btn_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_setmode_keyboard_btn_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_setmode_voice_btn_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatting_setmode_voice_btn_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_bg_focused.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_voice_playing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_voice_playing_f1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_voice_playing_f2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_chatto_voice_playing_f3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_contact_list_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_contact_list_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_conversation_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_conversation_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_default_avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_default_image.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_dx_checkbox_gray_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_dx_checkbox_off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_dx_checkbox_on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_groups_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_icon_marka.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_input_bar_bg_active.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_input_bar_bg_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_location_msg.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_login_error_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_listitem_disable.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_listitem_grey_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_listitem_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_listitem_simple.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_title_back.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_title_remove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_msg_state_fail_resend.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_msg_state_fail_resend_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_new_friends_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_06.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_07.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_08.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_09.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_record_animate_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_seabar_input.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_search_bar_icon_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_search_clear_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_search_clear_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_settings_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_settings_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_show_head_toast_bg.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_slidetab_bg_press.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_to_group_details_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_type_select_btn_nor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_type_select_btn_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_unread_count_bg.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_video_download_btn_nor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_video_play_btn_small_nor.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_video_recorder_start_btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_video_recorder_stop_btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_voice_unread.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_17.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_18.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_19.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_20.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_21.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_22.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_23.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_25.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_26.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_27.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_28.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_29.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_30.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_31.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_32.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_33.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_34.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_35.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ee_9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_blue_add.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_edit_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_image_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_image_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_item_file.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_location_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_location_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_press_speak_btn_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_press_speak_btn_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_send_btn_normal.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_send_btn_pressed.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_takepic_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_takepic_pressed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_video_call_receive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_video_call_self.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_voice_call_receive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chat_voice_call_self.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chatting_biaoqing_btn_enable.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_chatting_biaoqing_btn_normal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_close_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_default_avatar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_default_expression.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_delete_expression.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_dot_emojicon_selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_dot_emojicon_unselected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_group_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_groups_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_mm_title_remove.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_new_friends_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_open_icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-xhdpi/ease_unread_dot.9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_alert_click_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_blue_normal_shape.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_blue_pressed_shape.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_blue_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_cancel_bj.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_cancel_normal_shape.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_btn_cancel_pressed_shape.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chat_image_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chat_location_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chat_press_speak_btn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chat_send_btn_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chat_takepic_selector.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chatfrom_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chatting_setmode_keyboard_btn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chatting_setmode_voice_btn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_chatto_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_common_tab_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_edit_text_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_mm_listitem.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_mm_listitem_grey.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_msg_state_failed_resend.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_recording_hint_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_recording_text_hint_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_search_clear.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_sidebar_background_pressed.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_timestampe_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/ease_type_select_btn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable/recall_message_bg.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_acitivity_ding_msg_send.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_activity_baidumap.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_activity_ding_ack_user_list.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_activity_show_big_image.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_activity_show_file.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_alert_dialog.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_chat_menu_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_chat_message_list.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_commom_back_btn.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_conversation_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_emojicon.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_expression_gridview.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_fragment_chat.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_fragment_contact_list.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_fragment_conversation_list.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_layout_chat_primary_menu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_layout_emojicon_menu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_big_expression.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_chat_history.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_contact.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_ding_ack_user.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_expression.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_bigexpression.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_file.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_location.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_message.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_picture.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_video.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_video_call.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_voice.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_received_voice_call.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_bigexpression.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_file.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_location.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_message.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_picture.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_video.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_video_call.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_voice.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_row_sent_voice_call.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_scroll_tab_item.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_search_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_search_bar_with_padding.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_showvideo_activity.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_chat_input_menu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_chat_primary_menu.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_contact_list.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_emojicon.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_emojicon_tab_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_switch_button.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_title_bar.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_voice_recorder.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-large/ease_dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-ru-rRU/ease_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-v11/ease_styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-w820dp/ease_dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-xlarge/ease_dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values-zh-rCN/ease_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_attrs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_colors.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_dimens.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/easeui/src/test/java/com/hyphenate/easeui/ExampleUnitTest.java" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,120 +466,45 @@
       </state>
     </system>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="GREY" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="EaseMessageAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseMessageAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1255">
-              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state relative-caret-position="176">
+              <caret line="270" column="0" lean-forward="false" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easeui/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="900">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/easeui/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="253">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java">
+      <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3825">
-              <caret line="255" column="46" lean-forward="false" selection-start-line="255" selection-start-column="46" selection-end-line="255" selection-end-column="46" />
+            <state relative-caret-position="130">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/SettingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="89" column="35" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="35" />
-              <folding>
-                <element signature="e#3392#3769#0" expanded="true" />
-                <element signature="e#3768#3769#0" expanded="true" />
-                <element signature="e#4483#4645#0" expanded="true" />
-                <element signature="e#4644#4645#0" expanded="true" />
-                <element signature="e#4782#5106#0" expanded="true" />
-                <element signature="e#5105#5106#0" expanded="true" />
-                <element signature="e#5776#5805#0" expanded="true" />
-                <element signature="e#5887#6209#0" expanded="true" />
-                <element signature="e#6208#6209#0" expanded="true" />
-                <element signature="e#7844#7886#0" expanded="true" />
-                <element signature="e#8082#8122#0" expanded="true" />
-                <element signature="e#8263#8302#0" expanded="true" />
-                <element signature="e#8473#8523#0" expanded="true" />
-                <element signature="e#9229#14516#0" expanded="true" />
-                <element signature="e#9438#10670#0" expanded="true" />
-                <element signature="e#9989#10612#0" expanded="true" />
-                <element signature="e#10611#10612#0" expanded="true" />
-                <element signature="e#10669#10670#0" expanded="true" />
-                <element signature="e#10815#14371#0" expanded="true" />
-                <element signature="e#14370#14371#0" expanded="true" />
-                <element signature="e#14515#14516#0" expanded="true" />
-                <element signature="e#16211#16448#0" expanded="true" />
-                <element signature="e#16447#16448#0" expanded="true" />
-                <element signature="e#16642#16878#0" expanded="true" />
-                <element signature="e#16877#16878#0" expanded="true" />
-                <element signature="e#20566#20610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,38 +516,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>edit</find>
-      <find>recyclerView</find>
-      <find>bmobUser</find>
-      <find>MyItemClickListener</find>
-      <find>search</find>
-      <find>关注</find>
-      <find>失败</find>
-      <find>case</find>
-      <find>button</find>
-      <find>addPost</find>
-      <find>agree</find>
-      <find>addAgree</find>
-      <find>BmobUser</find>
-      <find>addagree</find>
-      <find>post.addAgree();</find>
-      <find>updateAgree</find>
-      <find>intent</find>
-      <find>delete</find>
-      <find>trush</find>
-      <find>number</find>
-      <find>finish</find>
-      <find>key</find>
-      <find>position</find>
-      <find>username</find>
-      <find>Drawer</find>
-      <find>option</find>
+      <find>CertificateWrap</find>
+      <find>ButterKnife.bind</find>
+      <find>Toast</find>
+      <find>userName</find>
+      <find>glide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3237,46 +3517,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/Post.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/PostItemDecoration.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostItemDecoration.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_scrolling.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_scrolling.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/toolbar_scrolling.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/SearchActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my_result.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/post.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/SquareActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/WelcomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/PostList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/CheckPermissionUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/GifOpenHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/GlobalOnItemClickManagerUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/MediaManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/PopupWindowFactory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/Utils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/BubbleDrawable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/GifTextView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/NoScrollViewPager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/attr.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/ChatAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/holder/ChatAcceptViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/activity/FullImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/StateButton.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/EmotionInputDetector.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/fragment/ChatFunctionFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/BubbleImageView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/EmotionGridViewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/holder/ChatSendViewHolder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/IndicatorView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/EmotionUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/fragment/ChatEmotionFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUserList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/SettingActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_follower.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowVideoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECMainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" />
+        <option value="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECApplication.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" />
         <option value="$PROJECT_DIR$/easeui/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -3284,8 +3575,8 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -3302,6 +3593,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -3309,33 +3603,88 @@
               <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
               <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="grey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="grey" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="easeui" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="GREY" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
               <item name="GREY" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="GREY" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="e9137016:NonAndroidModuleNode" />
-              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="GREY" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
           </expand>
           <select />
@@ -3349,8 +3698,9 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="Nexus_5X_API_28" />
-    <property name="SearchEverywhereHistoryKey" value="ease&#9;PSI&#9;JAVA://android.text.style.EasyEditSpan&#10;easeui&#9;FILE&#9;file:///Users/jhz/Documents/GitHub/GREY/simpledemo/src/androidTest/java/com/hyphenate/easeuisimpledemo&#10;addAg&#9;PSI&#9;JAVA://com.example.grey.post.Post#addAgree&#10;addAgree&#9;PSI&#9;JAVA://com.example.grey.post.Post#addAgree" />
+    <property name="device.picker.selection" value="Nexus_5X_API_28_2" />
+    <property name="SearchEverywhereHistoryKey" value="StateButton&#9;PSI&#9;JAVA://com.example.grey.chatui.widget.StateButton&#10;android.net.http.DelegatingSSLSession&#9;PSI&#9;JAVA://android.net.http.DelegatingSSLSession&#10;android.net.http.DelegatingSSLSession$CertificateWrap&#9;PSI&#9;JAVA://android.net.http.DelegatingSSLSession.CertificateWrap" />
+    <property name="android.profiler.active" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -3452,53 +3802,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="GREY" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="GREY" />
-      <envs />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -3548,6 +3851,53 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="GREY" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="GREY" />
+      <envs />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <envs />
+    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -3560,11 +3910,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="482de630-3785-4ec1-9482-34287b94c047" name="Default" comment="" />
-      <created>1545308435446</created>
+      <changelist id="4bfd4bd4-dc4b-4035-902d-ad03092738c6" name="Default" comment="" />
+      <created>1546227071192</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1545308435446</updated>
+      <updated>1546227071192</updated>
     </task>
     <servers />
   </component>
@@ -3579,16 +3929,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3596,21 +3944,22 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.49576783" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490931" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.50423217" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3621,124 +3970,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_follower.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="68" column="20" lean-forward="false" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toolbar_scrolling.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="103" column="86" lean-forward="true" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
-          <folding>
-            <element signature="e#4335#4336#0" expanded="false" />
-            <element signature="e#4373#4374#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/BackgroundActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="93" column="54" lean-forward="false" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostItemDecoration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reset.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_scrolling.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="45" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_scrolling.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -3748,8 +3983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_result.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="44" column="19" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="44" selection-end-column="19" />
+        <state relative-caret-position="233">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -3757,41 +3992,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/post.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFanAdapter.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toolbar_edit.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="419">
+          <caret line="68" column="11" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-586">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_scrolling.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/toolbar_scrolling.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -3801,16 +4032,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/drawer.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_drawer.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/base/BaseFragment.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_microphone.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -3821,40 +4069,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_search.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_my_result.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_chat_send.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="46" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3862,18 +4080,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/SearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_chat_accept.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="62" column="31" lean-forward="false" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3881,18 +4091,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/MyRecyclerViewAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/include_reply_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="115" column="55" lean-forward="false" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_square.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3900,10 +4102,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_test.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_chat_emotion.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3911,142 +4113,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_full_image.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="82" column="26" lean-forward="true" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
-          <folding>
-            <element signature="e#2865#3289#0" expanded="false" />
-            <element signature="e#3288#3289#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" column="46" lean-forward="false" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding>
-            <element signature="e#1379#1560#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="218" column="30" lean-forward="true" selection-start-line="213" selection-start-column="9" selection-end-line="218" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4911#4912#0" expanded="false" />
-            <element signature="e#4948#4949#0" expanded="false" />
-            <element signature="e#5988#6249#0" expanded="false" />
-            <element signature="e#6248#6249#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="106" column="32" lean-forward="false" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
-          <folding>
-            <element signature="e#2992#2993#0" expanded="false" />
-            <element signature="e#3035#3036#0" expanded="false" />
-            <element signature="e#4074#4335#0" expanded="false" />
-            <element signature="e#4334#4335#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4517#5059#0" expanded="false" />
-            <element signature="e#5058#5059#0" expanded="false" />
-            <element signature="e#11706#11707#0" expanded="false" />
-            <element signature="e#11744#11745#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/Option.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#241#242#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#298#299#0" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1700#2008#0" expanded="false" />
-            <element signature="e#2007#2008#0" expanded="false" />
-            <element signature="e#2473#2474#0" expanded="false" />
-            <element signature="e#2547#2548#0" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2612#2613#0" expanded="false" />
-            <element signature="e#3726#4007#0" expanded="false" />
-            <element signature="e#4006#4007#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4054,104 +4124,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/OptionAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/SettingActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="89" column="35" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="35" />
-          <folding>
-            <element signature="e#3392#3769#0" expanded="true" />
-            <element signature="e#3768#3769#0" expanded="true" />
-            <element signature="e#4483#4645#0" expanded="true" />
-            <element signature="e#4644#4645#0" expanded="true" />
-            <element signature="e#4782#5106#0" expanded="true" />
-            <element signature="e#5105#5106#0" expanded="true" />
-            <element signature="e#5776#5805#0" expanded="true" />
-            <element signature="e#5887#6209#0" expanded="true" />
-            <element signature="e#6208#6209#0" expanded="true" />
-            <element signature="e#7844#7886#0" expanded="true" />
-            <element signature="e#8082#8122#0" expanded="true" />
-            <element signature="e#8263#8302#0" expanded="true" />
-            <element signature="e#8473#8523#0" expanded="true" />
-            <element signature="e#9229#14516#0" expanded="true" />
-            <element signature="e#9438#10670#0" expanded="true" />
-            <element signature="e#9989#10612#0" expanded="true" />
-            <element signature="e#10611#10612#0" expanded="true" />
-            <element signature="e#10669#10670#0" expanded="true" />
-            <element signature="e#10815#14371#0" expanded="true" />
-            <element signature="e#14370#14371#0" expanded="true" />
-            <element signature="e#14515#14516#0" expanded="true" />
-            <element signature="e#16211#16448#0" expanded="true" />
-            <element signature="e#16447#16448#0" expanded="true" />
-            <element signature="e#16642#16878#0" expanded="true" />
-            <element signature="e#16877#16878#0" expanded="true" />
-            <element signature="e#20566#20610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="255" column="46" lean-forward="false" selection-start-line="255" selection-start-column="46" selection-end-line="255" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/text/style/EasyEditSpan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1255">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/activity/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4160,10 +4144,263 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowVideoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="52" column="79" lean-forward="false" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/StateButton.java" />
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseChatFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="176" column="23" lean-forward="false" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/base/MyApplication.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ecmain.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECMainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="75" column="36" lean-forward="false" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2707#3843#0" expanded="false" />
+            <element signature="e#3842#3843#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="81" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="32" column="46" lean-forward="false" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/EaseConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/EaseUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bmob-sdk-3.6.8-rc3.aar/db14a412932b92080a6fe5b34d8f420f/jars/libs/BmobSDK_3.6.8_20181121_rc3.jar!/cn/bmob/v3/Bmob.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <marker date="1543481197316" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1543481197316" expanded="false" signature="134:744" ph="..." />
+            <marker date="1543481197316" expanded="true" signature="837:844" ph="{}" />
+            <marker date="1543481197316" expanded="false" signature="911:922" ph=" { " />
+            <marker date="1543481197316" expanded="false" signature="944:950" ph=" }" />
+            <marker date="1543481197316" expanded="true" signature="956:974" ph="/**...*/" />
+            <marker date="1543481197316" expanded="true" signature="1073:1111" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="1169:1423" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="1478:1792" ph="{...}" />
+            <marker date="1543481197316" expanded="false" signature="1830:1841" ph=" { " />
+            <marker date="1543481197316" expanded="false" signature="1881:1887" ph=" }" />
+            <marker date="1543481197316" expanded="false" signature="1925:1936" ph=" { " />
+            <marker date="1543481197316" expanded="false" signature="1973:1979" ph=" }" />
+            <marker date="1543481197316" expanded="true" signature="2031:2281" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="2333:2583" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="2616:2834" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="2886:2975" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3020:3105" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3148:3234" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3279:3364" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3370:3388" ph="/**...*/" />
+            <marker date="1543481197316" expanded="true" signature="3490:3548" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3623:3678" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3741:3810" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="3882:4232" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="4326:4368" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="4452:4512" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="4593:4945" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="5050:5103" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="5194:5269" ph="{...}" />
+            <marker date="1543481197316" expanded="true" signature="5324:5449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECApplication.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="27" column="90" lean-forward="false" selection-start-line="27" selection-start-column="90" selection-end-line="27" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/model/EasePreferenceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="226" column="0" lean-forward="false" selection-start-line="226" selection-start-column="0" selection-end-line="227" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4152#4153#0" expanded="false" />
+            <element signature="e#4187#4188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseUserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/chatrow/EaseChatRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/widget/presenter/EaseChatRowPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/adapter/EaseMessageAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="270" column="0" lean-forward="false" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/easeui/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="60" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,7 @@
 package com.example.grey.accountList;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,10 +10,20 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.grey.ECChatActivity;
+import com.example.grey.EMUser;
 import com.example.grey.R;
+import com.hyphenate.chat.EMMessage;
+import com.hyphenate.easeui.EaseConstant;
 import com.mcxtzhang.swipemenulib.SwipeMenuLayout;
 
 import java.util.List;
+
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.UpdateListener;
 
 public class SideSlipFollowerAdapter extends BaseAdapter{
 
@@ -66,7 +77,12 @@ public class SideSlipFollowerAdapter extends BaseAdapter{
         holder.btn_top.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "私信", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(context,ECChatActivity.class);
+                intent.putExtra(EaseConstant.EXTRA_USER_ID,list.get(position).trim());
+                intent.putExtra(EaseConstant.EXTRA_CHAT_TYPE,EMMessage.ChatType.Chat);
+                context.startActivity(intent);
+
+                Toast.makeText(context, String.valueOf(list.get(position)), Toast.LENGTH_SHORT).show();
                 ((SwipeMenuLayout)(finalCloseView)).quickClose();// 关闭侧滑菜单：需要将itemView强转，然后调用quickClose()方法
             }
         });
@@ -75,6 +91,10 @@ public class SideSlipFollowerAdapter extends BaseAdapter{
         holder.btn_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                //取消关注，根据string来取消关注
+                deleteFollowerList(list.get(position));
+
                 ((SwipeMenuLayout)(finalCloseView)).quickClose();// 关闭侧滑菜单
                 if (delItemListener != null){
                     delItemListener.delete(position);// 调用接口的方法，回调删除该项数据
@@ -83,6 +103,34 @@ public class SideSlipFollowerAdapter extends BaseAdapter{
         });
 
         return convertView;
+    }
+
+    public void deleteFollowerList(final String string){
+        BmobQuery<EMUser> emUserBmobQuery=new BmobQuery<>();
+        emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
+        emUserBmobQuery.findObjects(new FindListener<EMUser>() {
+            @Override
+            public void done(List<EMUser> list, BmobException e) {
+                if (e==null){
+                    String objectId=list.get(0).getObjectId();
+                    EMUser emUser=list.get(0);
+                    emUser.deleteFollowerList(string);
+                    emUser.update(objectId, new UpdateListener() {
+                        @Override
+                        public void done(BmobException e) {
+                            if (e==null){
+                                //更新成功
+                            }
+                            else {
+                                //更新失败
+                            }
+                        }
+                    });
+                }
+                else {
+                }
+            }
+        });
     }
 
     /**

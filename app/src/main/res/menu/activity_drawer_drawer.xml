@@ -12,10 +12,14 @@
             android:id="@+id/nav_followers"
             android:icon="@mipmap/ic_eye_settings_outline_white_24dp"
             android:title="Followers" />
+        <!--<item-->
+            <!--android:id="@+id/nav_fans"-->
+            <!--android:icon="@mipmap/ic_account_group_outline_white_24dp"-->
+            <!--android:title="Fans" />-->
         <item
-            android:id="@+id/nav_fans"
-            android:icon="@mipmap/ic_account_group_outline_white_24dp"
-            android:title="Fans" />
+            android:id="@+id/nav_search_friends"
+            android:icon="@mipmap/ic_account_search_white_24dp"
+            android:title="Search friends"/>
         <item
             android:id="@+id/nav_square"
             android:icon="@mipmap/ic_square_inc_white_24dp"

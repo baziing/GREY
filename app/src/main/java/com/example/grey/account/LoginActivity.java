@@ -57,6 +57,7 @@ import com.hyphenate.EMCallBack;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMOptions;
+import com.hyphenate.easeui.EaseUI;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -102,6 +103,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         setContentView(R.layout.activity_login);
         //bomb初始化
         Bmob.initialize(this, "796037cf0d5cb806545e84bed5238df5");
+        //初始化EaseUi
+        EaseUI.getInstance().init(this,null);
+        EMClient.getInstance().setDebugMode(true);
+
         // Set up the login form.
 
         //EM初始化

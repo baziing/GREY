@@ -7,28 +7,42 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.example.grey.EMUser;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
+import com.hyphenate.chat.EMClient;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FollowerActivity extends Activity {
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
+import cn.bmob.v3.listener.UpdateListener;
+
+public class FollowerActivity extends Activity{
 
     private ListView lsv_side_slip_delete;
     private List<String> list = new ArrayList<>();
+    private EMUser emUser;
     private SideSlipFollowerAdapter adapter;
     private Toolbar toolbar;
     private Handler handler;
     private OrientationSensorListener listener;
     private SensorManager sm;
     private Sensor sensor;
+
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +64,16 @@ public class FollowerActivity extends Activity {
                 Intent intent=new Intent(FollowerActivity.this,DrawerActivity.class);
                 startActivity(intent);
                 FollowerActivity.this.finish();
+            }
+        });
+
+        swipeRefreshLayout=(SwipeRefreshLayout)findViewById(R.id.swipeRefreshLayout);
+        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+
+                adapter.notifyDataSetChanged();
+                swipeRefreshLayout.setRefreshing(false);
             }
         });
 
@@ -82,8 +106,32 @@ public class FollowerActivity extends Activity {
 
 
     private void setData() {
-        for (int i = 0;i < 16;i++){
-            list.add("侧滑删除" + (i + 1));
+        list.add("1");
+//        Toast.makeText(FollowerActivity.this,list.size(),Toast.LENGTH_SHORT).show();
+        BmobQuery<EMUser>emUserBmobQuery=new BmobQuery<>();
+        emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
+        emUserBmobQuery.findObjects(new FindListener<EMUser>() {
+            @Override
+            public void done(List<EMUser> list, BmobException e) {
+                if (e==null){
+                    addUsername(list.get(0).followerList);
+                }
+                else {
+                    Toast.makeText(FollowerActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+//        emUser.initData();
+//        Toast.makeText(FollowerActivity.this,String.valueOf(emUser.followerList.size()),Toast.LENGTH_SHORT).show();
+//        emUser.initData();
+//        for (int i=0;i<emUser.followerList.size();i++){
+//            list.add(emUser.followerList.get(i));
+//        }
+    }
+
+    private void addUsername(List<String>followerList){
+        for (int i=0;i<followerList.size();i++){
+            list.add(followerList.get(i));
         }
     }
 
