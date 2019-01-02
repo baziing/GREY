@@ -20,27 +20,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ConversationListActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ECChatActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUser.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUserAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUserAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_friends.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_friends.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,16 +61,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SquareActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,6 +78,19 @@
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -162,7 +144,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -3211,7 +3193,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
@@ -3230,6 +3211,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3867,17 +3849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2055">
-          <caret line="137" column="46" lean-forward="false" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/NavHeaderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -4053,6 +4024,17 @@
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="47" lean-forward="false" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>
