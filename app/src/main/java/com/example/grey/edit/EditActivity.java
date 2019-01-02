@@ -76,6 +76,11 @@ public class EditActivity extends AppCompatActivity {
                 String inputText=editText.getText().toString();//获取输入的文字
                 //获取当前的时间
 
+                if (inputText==null || inputText.equals("")){
+                    Toast.makeText(EditActivity.this,"内容不能为空",Toast.LENGTH_LONG).show();
+                    return false;
+                }
+
                 long time = System.currentTimeMillis();
 
                 Post post=new Post(inputText, BmobUser.getCurrentUser(),0,0,BmobUser.getCurrentUser().getUsername());
