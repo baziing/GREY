@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.chat;
 
 import com.example.grey.account.User;
 

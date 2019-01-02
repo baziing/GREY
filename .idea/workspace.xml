@@ -19,14 +19,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ConversationListActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ECChatActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUser.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUserAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUserAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/TestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
-      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_title_back.png" afterPath="$PROJECT_DIR$/easeui/src/main/res/drawable-hdpi/ease_mm_title_back.png" />
-      <change beforePath="$PROJECT_DIR$/easeui/src/main/res/values/ease_dimens.xml" afterPath="$PROJECT_DIR$/easeui/src/main/res/values/ease_dimens.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_friends.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_friends.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,111 +63,111 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EaseBaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DrawerActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="95" column="64" lean-forward="false" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EaseBaiduMapActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaiduMapActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ease_acitivity_ding_msg_send.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_acitivity_ding_msg_send.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_drawer.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_drawer_drawer.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ease_activity_ding_ack_user_list.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_activity_ding_ack_user_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ease_commom_back_btn.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_commom_back_btn.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ease_fragment_chat.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_fragment_chat.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EditActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="75">
+              <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
               <folding>
-                <element signature="e#1735#1893#0" expanded="true" />
-                <element signature="e#1892#1893#0" expanded="true" />
+                <element signature="e#2772#3240#0" expanded="true" />
+                <element signature="e#3239#3240#0" expanded="true" />
+                <element signature="e#4865#4866#0" expanded="true" />
+                <element signature="e#4939#4940#0" expanded="true" />
+                <element signature="e#5148#5533#0" expanded="true" />
+                <element signature="e#5532#5533#0" expanded="true" />
+                <element signature="e#9028#9456#0" expanded="true" />
+                <element signature="e#9455#9456#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="151" column="5" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ECChatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ECChatActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMUserAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUserAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchFriendsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConversationListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ConversationListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3165,35 +3179,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/activity/FullImageActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/StateButton.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/EmotionInputDetector.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/fragment/ChatFunctionFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/BubbleImageView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/EmotionGridViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/adapter/holder/ChatSendViewHolder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/widget/IndicatorView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/util/EmotionUtils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/fragment/ChatEmotionFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chatui/ui/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUserList.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/EMUser.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_follower.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowVideoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECMainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SideSlipFollowerAdapter.java" />
         <option value="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECApplication.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" />
         <option value="$PROJECT_DIR$/easeui/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_ecconversation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECConversationActivity.java" />
@@ -3201,21 +3198,38 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_eccontact_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECContactListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/utils/EaseUserUtils.java" />
         <option value="$PROJECT_DIR$/easeui/src/main/res/values/ease_colors.xml" />
         <option value="$PROJECT_DIR$/easeui/src/main/res/layout/ease_widget_title_bar.xml" />
         <option value="$PROJECT_DIR$/easeui/src/main/res/values/ease_dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_conversation_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" />
         <option value="$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_acitivity_ding_msg_send.xml" />
         <option value="$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_activity_ding_ack_user_list.xml" />
         <option value="$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_fragment_chat.xml" />
         <option value="$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_commom_back_btn.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_drawer_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/SearchFriendsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ConversationListActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ECChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUser.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUserAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java" />
       </list>
     </option>
   </component>
@@ -3289,35 +3303,7 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="grey" type="462c0819:PsiDirectoryNode" />
-              <item name="edit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GREY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GREY" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -3585,7 +3571,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3595,7 +3580,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3603,8 +3588,8 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3627,133 +3612,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ecconversation.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/ECConversationActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECConversationActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_ecconversation.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_eccontact_list.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECContactListActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="80" lean-forward="false" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/account/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3000">
-          <caret line="420" column="0" lean-forward="false" selection-start-line="420" selection-start-column="0" selection-end-line="420" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ecchat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ECChatActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="108" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseBaseFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseChatFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="176" column="23" lean-forward="false" selection-start-line="176" selection-start-column="23" selection-end-line="176" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseChatRoomListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseContactListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseConversationListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseDingAckUserListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseDingMsgSendActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseGroupListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseGroupRemoveListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easeui/src/main/java/com/hyphenate/easeui/ui/EaseShowNormalFileActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -3896,17 +3754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/ConversationListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding>
-            <element signature="e#836#1006#0" expanded="false" />
-            <element signature="e#1005#1006#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -3969,19 +3816,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_commom_back_btn.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/post/PostList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_acitivity_ding_msg_send.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1693">
+          <caret line="174" column="38" lean-forward="false" selection-start-line="174" selection-start-column="38" selection-end-line="174" selection-end-column="38" />
+          <folding>
+            <element signature="e#5527#5834#0" expanded="false" />
+            <element signature="e#5833#5834#0" expanded="false" />
+            <element signature="e#8718#9431#0" expanded="false" />
+            <element signature="e#9430#9431#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4007,22 +3851,207 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
+    <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_commom_back_btn.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="95" column="64" lean-forward="false" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easeui/build/intermediates/packaged_res/debug/layout/ease_acitivity_ding_msg_send.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="137" column="46" lean-forward="false" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/NavHeaderActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/edit/EditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
+        <state relative-caret-position="388">
+          <caret line="111" column="5" lean-forward="false" selection-start-line="101" selection-start-column="4" selection-end-line="111" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/ScrollingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/BackgroundActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/setting/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/FollowerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="55" column="77" lean-forward="false" selection-start-line="55" selection-start-column="77" selection-end-line="55" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/search/ResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MySearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/personalHomepage/MyResultActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="161" column="5" lean-forward="false" selection-start-line="161" selection-start-column="5" selection-end-line="161" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/SquareActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="151" column="5" lean-forward="false" selection-start-line="141" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/home/DrawerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
           <folding>
-            <element signature="e#1735#1893#0" expanded="true" />
-            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#2772#3240#0" expanded="true" />
+            <element signature="e#3239#3240#0" expanded="true" />
+            <element signature="e#4865#4866#0" expanded="true" />
+            <element signature="e#4939#4940#0" expanded="true" />
+            <element signature="e#5148#5533#0" expanded="true" />
+            <element signature="e#5532#5533#0" expanded="true" />
+            <element signature="e#9028#9456#0" expanded="true" />
+            <element signature="e#9455#9456#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ConversationListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/ECChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/chat/EMUserAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/accountList/SearchFriendsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/test/ChatActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/grey/test/TestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

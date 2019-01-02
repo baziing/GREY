@@ -20,13 +20,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
-import com.example.grey.ChatActivity;
-import com.example.grey.ConversationListActivity;
-import com.example.grey.ECChatActivity;
+import com.example.grey.chat.ConversationListActivity;
+import com.example.grey.chat.EMUser;
 import com.example.grey.R;
-import com.example.grey.SearchFriendsActivity;
-import com.example.grey.TestActivity;
+import com.example.grey.accountList.SearchFriendsActivity;
 import com.example.grey.personalHomepage.ScrollingActivity;
 import com.example.grey.accountList.FollowerActivity;
 import com.example.grey.edit.EditActivity;
@@ -37,10 +36,13 @@ import com.example.grey.search.SearchActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 import com.example.grey.setting.SettingActivity;
-import com.hyphenate.chat.EMMessage;
-import com.hyphenate.easeui.EaseConstant;
 
-import cn.bmob.v3.Bmob;
+import java.util.List;
+
+import cn.bmob.v3.BmobQuery;
+import cn.bmob.v3.BmobUser;
+import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -66,8 +68,20 @@ public class DrawerActivity extends AppCompatActivity
             @Override
             public void onRefresh() {
 
-
-                postList.refreshData();
+                BmobQuery<EMUser> emUserBmobQuery=new BmobQuery<>();
+                emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
+                emUserBmobQuery.findObjects(new FindListener<EMUser>() {
+                    @Override
+                    public void done(List<EMUser> list, BmobException e) {
+                        if (e==null){
+                            postList.refreshData(list.get(0).followerList);
+                        }
+                        else {
+                            Toast.makeText(DrawerActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+//                postList.refreshData();
 
                 myRecyclerViewAdapter.notifyDataSetChanged();
                 swipeRefreshLayout.setRefreshing(false);
@@ -111,7 +125,20 @@ public class DrawerActivity extends AppCompatActivity
     }
 
     private void initData(){
-        postList.initData();
+        BmobQuery<EMUser> emUserBmobQuery=new BmobQuery<>();
+        emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
+        emUserBmobQuery.findObjects(new FindListener<EMUser>() {
+            @Override
+            public void done(List<EMUser> list, BmobException e) {
+                if (e==null){
+                    postList.initData(list.get(0).followerList);
+                }
+                else {
+                    Toast.makeText(DrawerActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+//        postList.initData();
     }
 
 
@@ -195,7 +222,23 @@ public class DrawerActivity extends AppCompatActivity
             startActivity(intent);
             return true;
         }else if (id==R.id.action_refresh){
-            postList.refreshData();
+//            postList.refreshData();
+//            myRecyclerViewAdapter.notifyDataSetChanged();
+            BmobQuery<EMUser> emUserBmobQuery=new BmobQuery<>();
+            emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
+            emUserBmobQuery.findObjects(new FindListener<EMUser>() {
+                @Override
+                public void done(List<EMUser> list, BmobException e) {
+                    if (e==null){
+                        postList.refreshData(list.get(0).followerList);
+                    }
+                    else {
+                        Toast.makeText(DrawerActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+//                postList.refreshData();
+
             myRecyclerViewAdapter.notifyDataSetChanged();
             return true;
         }

@@ -20,6 +20,7 @@ import scut.carson_ho.searchview.bCallBack;
 public class MySearchActivity extends AppCompatActivity {
 
     private SearchView searchView;
+
     private Handler handler;
     private OrientationSensorListener listener;
     private SensorManager sm;

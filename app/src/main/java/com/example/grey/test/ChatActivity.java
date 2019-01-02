@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.test;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.grey.R;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.EMMessageListener;
 import com.hyphenate.chat.EMClient;

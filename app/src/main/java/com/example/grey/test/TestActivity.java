@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.test;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.example.grey.R;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.post.MyRecyclerViewAdapter;
 import com.example.grey.post.PostItemDecoration;

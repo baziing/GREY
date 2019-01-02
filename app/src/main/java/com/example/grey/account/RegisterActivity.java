@@ -37,12 +37,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.grey.EMUser;
+import com.example.grey.chat.EMUser;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
 import com.hyphenate.EMError;
-import com.hyphenate.chat.EMChatManager;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 

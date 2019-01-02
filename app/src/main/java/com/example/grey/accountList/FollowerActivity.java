@@ -10,16 +10,14 @@ import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.grey.EMUser;
+import com.example.grey.chat.EMUser;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.R;
 import com.example.grey.sensor.ChangeOrientationHandler;
 import com.example.grey.sensor.OrientationSensorListener;
-import com.hyphenate.chat.EMClient;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,7 +26,6 @@ import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
-import cn.bmob.v3.listener.UpdateListener;
 
 public class FollowerActivity extends Activity{
 
@@ -106,7 +103,7 @@ public class FollowerActivity extends Activity{
 
 
     private void setData() {
-        list.add("1");
+//        list.add("1");
 //        Toast.makeText(FollowerActivity.this,list.size(),Toast.LENGTH_SHORT).show();
         BmobQuery<EMUser>emUserBmobQuery=new BmobQuery<>();
         emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());

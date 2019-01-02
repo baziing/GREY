@@ -6,6 +6,7 @@ import com.example.grey.post.Post;
 
 import java.sql.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import cn.bmob.v3.Bmob;
@@ -50,6 +51,25 @@ public class PostList{
                 if (e==null){
                     //添加到PostList中
                     addPost(list,20);
+                }else {
+
+                }
+            }
+        });
+    }
+
+    public void initData(List<String>followers){
+        List<String>strings=followers;
+        strings.add(BmobUser.getCurrentUser().getUsername());
+        BmobQuery<Post>postBmobQuery=new BmobQuery<>();
+        postBmobQuery.order("-createdAt");
+        postBmobQuery.addWhereEqualTo("name", Arrays.asList(followers));
+        postBmobQuery.findObjects(new FindListener<Post>() {
+            @Override
+            public void done(List<Post> list, BmobException e) {
+                if (e==null){
+                    //添加到PostList中
+                    addPost(list);
                 }else {
 
                 }
@@ -135,6 +155,26 @@ public class PostList{
                 if (equalList(list,postList)!=3){
                     postList.clear();
                     initData(number);
+                }
+            }
+        });
+    }
+
+    public void refreshData(List<String>followers){
+        final List<String>strings=followers;
+        strings.add(BmobUser.getCurrentUser().getUsername());
+        followers.add(BmobUser.getCurrentUser().getUsername());
+        BmobQuery<Post> postBmobQuery=new BmobQuery<>();
+        postBmobQuery.order("-createdAt");
+        postBmobQuery.addWhereEqualTo("name", Arrays.asList(followers));
+        postBmobQuery.findObjects(new FindListener<Post>() {
+            @Override
+            public void done(List<Post> list, BmobException e) {
+                if (equalList(list,postList)!=3){
+                    postList.clear();
+                    initData(strings);
+                }else {
+
                 }
             }
         });

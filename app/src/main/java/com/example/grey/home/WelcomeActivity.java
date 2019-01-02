@@ -1,12 +1,18 @@
 package com.example.grey.home;
 
 import android.animation.Animator;
+import android.content.Context;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.example.grey.R;
+import com.example.grey.sensor.ChangeOrientationHandler;
+import com.example.grey.sensor.OrientationSensorListener;
 
 import java.util.Timer;
 import java.util.TimerTask;

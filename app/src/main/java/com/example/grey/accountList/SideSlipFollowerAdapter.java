@@ -10,8 +10,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.grey.ECChatActivity;
-import com.example.grey.EMUser;
+import com.example.grey.chat.ECChatActivity;
+import com.example.grey.chat.EMUser;
 import com.example.grey.R;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.easeui.EaseConstant;

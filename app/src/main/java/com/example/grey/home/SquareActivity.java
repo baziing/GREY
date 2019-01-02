@@ -1,7 +1,11 @@
 package com.example.grey.home;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
+import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -16,6 +20,8 @@ import com.example.grey.post.MyRecyclerViewAdapter;
 import com.example.grey.post.Post;
 import com.example.grey.post.PostItemDecoration;
 import com.example.grey.post.PostList;
+import com.example.grey.sensor.ChangeOrientationHandler;
+import com.example.grey.sensor.OrientationSensorListener;
 
 public class SquareActivity extends AppCompatActivity {
 
@@ -25,10 +31,21 @@ public class SquareActivity extends AppCompatActivity {
     private PostList postList=new PostList();
     private Toolbar toolbar;
 
+    private Handler handler;
+    private OrientationSensorListener listener;
+    private SensorManager sm;
+    private Sensor sensor;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_square);
+
+        handler = new ChangeOrientationHandler(this);
+        sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        sensor = sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        listener = new OrientationSensorListener(handler);
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
 
         toolbar=(Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -46,7 +63,7 @@ public class SquareActivity extends AppCompatActivity {
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                postList.refreshData();
+                postList.refreshData(20);
 
                 myRecyclerViewAdapter.notifyDataSetChanged();
                 swipeRefreshLayout.setRefreshing(false);
@@ -71,7 +88,7 @@ public class SquareActivity extends AppCompatActivity {
     }
 
     private void initData(){
-        postList.initData();
+        postList.initData(20);
     }
 
     private MyRecyclerViewAdapter.OnItemClickListener MyItemClickListener=new MyRecyclerViewAdapter.OnItemClickListener() {
@@ -121,5 +138,17 @@ public class SquareActivity extends AppCompatActivity {
 
         }
     };
+
+    @Override
+    protected void onPause() {
+        sm.unregisterListener(listener);
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        sm.registerListener(listener, sensor, SensorManager.SENSOR_DELAY_UI);
+        super.onResume();
+    }
 
 }

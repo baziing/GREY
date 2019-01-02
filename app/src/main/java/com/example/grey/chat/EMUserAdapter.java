@@ -1,4 +1,4 @@
-package com.example.grey;
+package com.example.grey.chat;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.grey.post.MyRecyclerViewAdapter;
+import com.example.grey.R;
 
 import java.util.List;
 

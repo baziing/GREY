@@ -72,7 +72,8 @@
         <activity android:name=".home.NavHeaderActivity" />
         <activity
             android:name=".account.ResetActivity"
-            android:label="@string/title_activity_reset" />
+            android:label="@string/title_activity_reset"
+            android:screenOrientation="sensor"/>
         <activity
             android:name=".setting.SettingActivity"
             android:screenOrientation="sensor" />
@@ -90,11 +91,16 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name=".search.ResultActivity" />
-        <activity android:name=".personalHomepage.MyResultActivity" />
-        <activity android:name=".home.SquareActivity" />
-        <activity android:name=".home.WelcomeActivity" />
-        <activity android:name=".TestActivity" />
+        <activity android:name=".search.ResultActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".personalHomepage.MyResultActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".home.SquareActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".home.WelcomeActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".test.TestActivity"
+            android:screenOrientation="sensor"/>
 
         <!-- 设置环信应用的AppKey -->
         <meta-data
@@ -122,11 +128,14 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".SearchFriendsActivity" />
-        <activity android:name=".chatui.ui.activity.MainActivity" />
-        <activity android:name=".ECChatActivity" />
-        <activity android:name=".ChatActivity" />
-        <activity android:name=".ConversationListActivity"></activity>
+        <activity android:name=".accountList.SearchFriendsActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".chat.ECChatActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".test.ChatActivity"
+            android:screenOrientation="sensor"/>
+        <activity android:name=".chat.ConversationListActivity"
+            android:screenOrientation="sensor"/>
     </application>
 
 </manifest>
