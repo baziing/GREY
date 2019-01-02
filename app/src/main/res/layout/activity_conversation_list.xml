@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ConversationListActivity">
 
+
     <!--控件集装箱，用来替换聊天界面-->
     <FrameLayout
         android:id="@+id/ec_layout_container"
@@ -13,5 +14,13 @@
         android:layout_height="match_parent">
 
     </FrameLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
 
 </RelativeLayout>

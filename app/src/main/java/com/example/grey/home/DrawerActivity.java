@@ -93,6 +93,7 @@ public class DrawerActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -231,10 +232,6 @@ public class DrawerActivity extends AppCompatActivity
             Intent intent=new Intent(DrawerActivity.this, ConversationListActivity.class);
             startActivity(intent);
 
-        } else if (id == R.id.nav_send) {
-            Intent intent=new Intent(DrawerActivity.this, TestActivity.class);
-            startActivity(intent);
-            DrawerActivity.this.finish();
         } else if(id==R.id.nav_square){
             Intent intent=new Intent(DrawerActivity.this, SquareActivity.class);
             startActivity(intent);

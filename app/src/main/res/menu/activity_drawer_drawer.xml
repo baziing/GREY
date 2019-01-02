@@ -16,10 +16,10 @@
             <!--android:id="@+id/nav_fans"-->
             <!--android:icon="@mipmap/ic_account_group_outline_white_24dp"-->
             <!--android:title="Fans" />-->
-        <item
-            android:id="@+id/nav_search_friends"
-            android:icon="@mipmap/ic_account_search_white_24dp"
-            android:title="Search friends"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_search_friends"-->
+            <!--android:icon="@mipmap/ic_account_search_white_24dp"-->
+            <!--android:title="Search friends"/>-->
         <item
             android:id="@+id/nav_square"
             android:icon="@mipmap/ic_square_inc_white_24dp"
@@ -34,12 +34,12 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:icon="@mipmap/ic_forum_white_24dp"
+                android:title="Message" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_search_friends"
+                android:icon="@mipmap/ic_account_search_white_24dp"
+                android:title="Search friends"/>
         </menu>
     </item>
 
