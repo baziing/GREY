@@ -132,9 +132,10 @@ public class DrawerActivity extends AppCompatActivity
             public void done(List<EMUser> list, BmobException e) {
                 if (e==null){
                     postList.initData(list.get(0).followerList);
+//                    Toast.makeText(DrawerActivity.this,list.get(0).followerList.get(0),Toast.LENGTH_LONG).show();
                 }
                 else {
-                    Toast.makeText(DrawerActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(DrawerActivity.this,"加载失败"+e,Toast.LENGTH_SHORT).show();
                 }
             }
         });

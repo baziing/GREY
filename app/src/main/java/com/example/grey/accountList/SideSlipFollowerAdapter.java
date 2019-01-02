@@ -94,6 +94,7 @@ public class SideSlipFollowerAdapter extends BaseAdapter{
 
                 //取消关注，根据string来取消关注
                 deleteFollowerList(list.get(position));
+                Toast.makeText(context,"取消关注成功",Toast.LENGTH_LONG).show();
 
                 ((SwipeMenuLayout)(finalCloseView)).quickClose();// 关闭侧滑菜单
                 if (delItemListener != null){

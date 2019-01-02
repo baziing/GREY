@@ -59,11 +59,12 @@ public class PostList{
     }
 
     public void initData(List<String>followers){
-        List<String>strings=followers;
+        List<String>strings=new ArrayList<>();
+        strings.addAll(followers);
         strings.add(BmobUser.getCurrentUser().getUsername());
         BmobQuery<Post>postBmobQuery=new BmobQuery<>();
         postBmobQuery.order("-createdAt");
-        postBmobQuery.addWhereEqualTo("name", Arrays.asList(followers));
+        postBmobQuery.addWhereContainedIn("name", strings);
         postBmobQuery.findObjects(new FindListener<Post>() {
             @Override
             public void done(List<Post> list, BmobException e) {
@@ -160,19 +161,20 @@ public class PostList{
         });
     }
 
-    public void refreshData(List<String>followers){
-        final List<String>strings=followers;
+    public void refreshData(final List<String>followers){
+        List<String>strings=new ArrayList<>();
+        strings.addAll(followers);
         strings.add(BmobUser.getCurrentUser().getUsername());
         followers.add(BmobUser.getCurrentUser().getUsername());
         BmobQuery<Post> postBmobQuery=new BmobQuery<>();
         postBmobQuery.order("-createdAt");
-        postBmobQuery.addWhereEqualTo("name", Arrays.asList(followers));
+        postBmobQuery.addWhereContainedIn("name", strings);
         postBmobQuery.findObjects(new FindListener<Post>() {
             @Override
             public void done(List<Post> list, BmobException e) {
                 if (equalList(list,postList)!=3){
                     postList.clear();
-                    initData(strings);
+                    initData(followers);
                 }else {
 
                 }

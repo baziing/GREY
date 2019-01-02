@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.example.grey.R;
+import com.example.grey.account.User;
 import com.example.grey.chat.EMUser;
 import com.example.grey.home.DrawerActivity;
 import com.example.grey.sensor.ChangeOrientationHandler;
@@ -36,6 +37,8 @@ public class SearchFriendsActivity extends AppCompatActivity {
     private OrientationSensorListener listener;
     private SensorManager sm;
     private Sensor sensor;
+
+    boolean flag=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,7 +90,11 @@ public class SearchFriendsActivity extends AppCompatActivity {
         });
     }
 
-    void addFollowerList(final String string){
+    public void addFollowerList(final String string){
+        if (!isExit(string)){
+            Toast.makeText(SearchFriendsActivity.this,string+"不存在",Toast.LENGTH_LONG).show();
+            return;
+        }
         BmobQuery<EMUser>emUserBmobQuery=new BmobQuery<>();
         emUserBmobQuery.addWhereEqualTo("bmobUser", BmobUser.getCurrentUser());
         emUserBmobQuery.findObjects(new FindListener<EMUser>() {
@@ -102,20 +109,36 @@ public class SearchFriendsActivity extends AppCompatActivity {
                         public void done(BmobException e) {
                             if (e==null){
                                 //更新成功
-                                Toast.makeText(SearchFriendsActivity.this,"登录失"+e,Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SearchFriendsActivity.this,"关注成功",Toast.LENGTH_SHORT).show();
                             }
                             else {
                                 //更新失败
-                                Toast.makeText(SearchFriendsActivity.this,"登录失败"+e,Toast.LENGTH_SHORT).show();
+                                Toast.makeText(SearchFriendsActivity.this,"关注失败"+e,Toast.LENGTH_SHORT).show();
                             }
                         }
                     });
                 }
                 else {
-                    Toast.makeText(SearchFriendsActivity.this,"登录"+e,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SearchFriendsActivity.this,"关注失败"+e,Toast.LENGTH_SHORT).show();
                 }
             }
         });
+    }
+
+    public boolean isExit(String string){
+        BmobQuery<User>userBmobQuery=new BmobQuery<>();
+        userBmobQuery.addWhereEqualTo("username",string);
+        userBmobQuery.findObjects(new FindListener<User>() {
+            @Override
+            public void done(List<User> list, BmobException e) {
+                if (e==null){
+                    flag=true;
+                }else {
+                    flag=false;
+                }
+            }
+        });
+        return flag;
     }
 
     @Override
