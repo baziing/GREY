@@ -12,10 +12,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.example.grey.R;
-import com.example.grey.home.DrawerActivity;
-import com.example.grey.post.MyRecyclerViewAdapter;
-import com.example.grey.post.PostItemDecoration;
-import com.example.grey.post.PostList;
+import com.example.grey.view.DrawerActivity;
+import com.example.grey.adapter.MyRecyclerViewAdapter;
+import com.example.grey.widget.PostItemDecoration;
+import com.example.grey.model.PostList;
 
 public class TestActivity extends AppCompatActivity {
 
