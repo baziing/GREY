@@ -66,6 +66,7 @@ public class SettingActivity extends AppCompatActivity {
                         Intent intent1=new Intent(SettingActivity.this,LoginActivity.class);
                         startActivity(intent1);
                         SettingActivity.this.finish();
+                        //退出
                         BmobUser.logOut();
                         EMClient.getInstance().logout(true);
                         break;

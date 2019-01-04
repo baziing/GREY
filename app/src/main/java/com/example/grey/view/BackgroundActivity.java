@@ -231,6 +231,7 @@ public class BackgroundActivity extends AppCompatActivity {
 
         File file = new File(PathGetter.getPath(this, uri));
 
+        //查找相册内的图片
         if (file.exists() && file.isFile()){
             if(file.length()>524288){
                 Toast.makeText(BackgroundActivity.this, "要求图片小于500KB", Toast.LENGTH_SHORT).show();
@@ -257,6 +258,7 @@ public class BackgroundActivity extends AppCompatActivity {
         });
 
 
+        //压缩图片
         Luban.with(this)
                 .load(file)
                 .ignoreBy(50)

@@ -352,7 +352,6 @@ public class PostList{
             @Override
             public void done(String s, BmobException e) {
                 if (e==null){
-//                    Toast.makeText(DrawerActivity.this,"转发成功",Toast.LENGTH_SHORT).show();
                 }
             }
         });

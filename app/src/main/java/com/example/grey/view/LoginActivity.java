@@ -380,8 +380,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 //            userlogin.setEmail(email);
 //            userlogin.setPassword(password);
 
-            signIn(email,password);
 
+            //登入账号
+            signIn(email,password);
             BmobUser.loginByAccount(email,password,new LogInListener<User>() {
                 @Override
                 public void done(User user, BmobException e) {

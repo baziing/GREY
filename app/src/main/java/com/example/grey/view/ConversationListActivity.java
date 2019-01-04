@@ -48,22 +48,12 @@ public class ConversationListActivity extends AppCompatActivity {
         });
 
         EaseConversationListFragment conversationListFragment = new EaseConversationListFragment();
-//        conversationListFragment.setConversationListItemClickListener(new EaseConversationListItemClickListener() {
-//
-//            @Override
-//            public void onListItemClicked(EMConversation conversation) {
-//                startActivity(new Intent(ConversationListActivity.this, ChatActivity.class).putExtra(EaseConstant.EXTRA_USER_ID, conversation.getUserName()));
-//            }
-//        });
-
-
         conversationListFragment.setConversationListItemClickListener(new EaseConversationListFragment.EaseConversationListItemClickListener() {
             @Override
             public void onListItemClicked(EMConversation conversation) {
                 startActivity(new Intent(ConversationListActivity.this, ECChatActivity.class).putExtra(EaseConstant.EXTRA_USER_ID, conversation.conversationId()));
             }
         });
-
         //加载EaseUi封装的聊天界面Fragment
         getSupportFragmentManager().beginTransaction().add(R.id.ec_layout_container, conversationListFragment).commit();
     }

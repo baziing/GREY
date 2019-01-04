@@ -97,6 +97,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
         String name1=post.getName();
         String name2=BmobUser.getCurrentUser().getUsername();
 
+        //判断按钮显示
         if (post.isFoundAgree()){
             viewHolder.buttonAgree.setText(String.valueOf("已赞同"));
             viewHolder.buttonAgree.setEnabled(false);

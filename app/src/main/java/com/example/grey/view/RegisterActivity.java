@@ -258,6 +258,7 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             new Thread(new Runnable() {
                 @Override public void run() {
                     try {
+                        //注册用户
                         EMClient.getInstance().createAccount(username, password);
                         runOnUiThread(new Runnable() {
                             @Override public void run() {

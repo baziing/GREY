@@ -113,6 +113,7 @@ public class Post extends BmobObject {
         this.time=time;
     }
 
+    //是否已经赞同
     public boolean isFoundAgree(){
         //搜索
         BmobUser user = BmobUser.getCurrentUser();
@@ -120,6 +121,7 @@ public class Post extends BmobObject {
         return this.agreeList.contains(id);
     }
 
+    //是否已经否认
     public boolean isFoundDisagree(){
         //搜索
         BmobUser user = BmobUser.getCurrentUser();
@@ -127,12 +129,14 @@ public class Post extends BmobObject {
         return this.disagreeList.contains(id);
     }
 
+    //添加到赞同列表
     public void addAgreeList(){
         BmobUser user = BmobUser.getCurrentUser();
         String id=user.getObjectId();
         this.agreeList.add(id);
     }
 
+    //添加到不赞同的列表
     public void addDisagreeList(){
         BmobUser user = BmobUser.getCurrentUser();
         String id=user.getObjectId();

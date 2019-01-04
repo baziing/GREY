@@ -83,6 +83,7 @@ public class EditActivity extends AppCompatActivity {
 
                 long time = System.currentTimeMillis();
 
+                //发帖
                 Post post=new Post(inputText, BmobUser.getCurrentUser(),0,0,BmobUser.getCurrentUser().getUsername());
                 post.setTime(time);
                 post.save(new SaveListener<String>() {
